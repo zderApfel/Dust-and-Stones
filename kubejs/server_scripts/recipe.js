@@ -21,74 +21,74 @@ const shaped = [
 	new ShapedRecipe(
 		'nzgexpansion:hunting_rifle',
 		'1',
-		['   ','PIP','  W'],
-		{P:'#forge:plates/iron', I:'#minecraft:planks', W:'#minecraft:planks'}
+		['   ','PIP','  I'],
+		{P:'#forge:plates/iron', I:'#minecraft:planks'}
 	),
 	new ShapedRecipe(
 		'cgm:pistol',
 		'1',
 		['   ','PIP','  I'],
-		{P:'beyond_earth:compressed_steel', I:'#forge:ingots/steel'}
+		{P:'#forge:plates/steel', I:'#forge:ingots/steel'}
 	),
 	new ShapedRecipe(
 		'nzgexpansion:micro_smg',
 		'1',
 		['PIP',' I ',' I '],
-		{P:'beyond_earth:compressed_steel', I:'#forge:ingots/steel'}
+		{P:'#forge:plates/steel', I:'#forge:ingots/steel'}
 	),
 	new ShapedRecipe(
 		'cgm:shotgun',
 		'1',
 		['   ','SB ','  I'],
-		{S:'beyond_earth:compressed_steel', B:'#forge:storage_blocks/steel', I:'#forge:ingots/steel'}
+		{S:'#forge:plates/steel', B:'#forge:storage_blocks/steel', I:'#forge:ingots/steel'}
 	),
 	new ShapedRecipe(
 		'cgm:rifle',
 		'1',
 		['   ','SSS','  I'],
-		{S:'beyond_earth:compressed_steel', I:'#forge:ingots/steel'}
+		{S:'#forge:plates/steel', I:'#forge:ingots/steel'}
 	),
 	new ShapedRecipe(
 		'nzgexpansion:submachine_gun',
 		'1',
 		['   ','SIS','I I'],
-		{S:'beyond_earth:compressed_steel', I:'#forge:ingots/steel'}
+		{S:'#forge:plates/steel', I:'#forge:ingots/steel'}
 	),
 	new ShapedRecipe(
 		'cgm:assault_rifle',
 		'1',
 		['   ','SGS','I I'],
-		{S:'beyond_earth:compressed_steel', I:'#forge:ingots/steel', G:'nzgexpansion:submachine_gun'}
+		{S:'#forge:plates/steel', I:'#forge:ingots/steel', G:'nzgexpansion:submachine_gun'}
 	),
 	new ShapedRecipe(
 		'nzgexpansion:heavy_assault_rifle',
 		'1',
 		['   ','PGS','I I'],
-		{S:'beyond_earth:compressed_steel', I:'#forge:ingots/steel', G:'cgm:assault_rifle', P:'#minecraft:planks'}
+		{S:'#forge:plates/steel', I:'#forge:ingots/steel', G:'cgm:assault_rifle', P:'#minecraft:planks'}
 	),
 	new ShapedRecipe(
 		'nzgexpansion:battle_rifle',
 		'1',
 		['   ','SGS','I I'],
-		{S:'beyond_earth:compressed_steel', I:'#forge:ingots/steel', G:'cgm:assault_rifle'}
+		{S:'#forge:plates/steel', I:'#forge:ingots/steel', G:'cgm:assault_rifle'}
 	),
 	new ShapedRecipe(
 		'cgm:heavy_rifle',
 		'1',
 		['   ','SGS','I I'],
-		{S:'beyond_earth:compressed_steel', I:'#forge:ingots/steel', G:'nzgexpansion:heavy_assault_rifle'}
+		{S:'#forge:plates/steel', I:'#forge:ingots/steel', G:'nzgexpansion:sniper_rifle'}
 	),
 	new ShapedRecipe(
 		'nzgexpansion:sniper_rifle',
 		'1',
 		['   ','SGS','  I'],
-		{S:'beyond_earth:compressed_steel', I:'#forge:ingots/steel', G:'nzgexpansion:hunting_rifle'}
+		{S:'#forge:plates/steel', I:'#forge:ingots/steel', G:'nzgexpansion:hunting_rifle'}
 	),
 	new ShapedRecipe(
 		'cgm:grenade_launcher',
 		'1',
 		['   ','PBB','I I'],
-		{P:'beyond_earth:compressed_steel', B:'#forge:storage_blocks/steel', I:'#forge:ingots/steel'}
+		{P:'#forge:plates/steel', B:'#forge:storage_blocks/steel', I:'#forge:ingots/steel'}
 	),
 	new ShapedRecipe(
 		'cgm:bazooka',
@@ -107,28 +107,28 @@ const shaped = [
 		'nzgexpansion:medium_bullet',
 		'10',
 		['CLC','CGC','III'],
-		{L:'#forge:ingots/lead',G:'#forge:gunpowder',C:'#forge:ingots/copper',I:'#forge:ingots/iron'}		
+		{L:'#forge:ingots/lead',G:'#forge:gunpowder',C:'#forge:ingots/copper',I:'#forge:ingots/steel'}		
 	),
 
 	new ShapedRecipe(
 		'cgm:advanced_bullet',
 		'10',
 		['CLC','CGC','III'],
-		{L:'#forge:ingots/steel',G:'#forge:gunpowder',C:'#forge:ingots/copper',I:'#forge:ingots/steel'}		
+		{L:'#forge:ingots/steel',G:'#forge:gunpowder',C:'#forge:ingots/copper',I:'#forge:ingots/brass'}		
 	),
 
 	new ShapedRecipe(
 		'cgm:missile',
 		'2',
 		['III','ITI','IRI'],
-		{I:'#forge:ingots/steel',T:'minecraft:tnt',R:'minecraft:firework_rocket'}		
+		{I:'#forge:plates/steel',T:'minecraft:tnt',R:'minecraft:firework_rocket'}		
 	),
 
 	new ShapedRecipe(
 		'cgm:shell',
 		'10',
 		['CCC','GgG','CCC'],
-		{C:'#forge:ingots/copper',G:'#forge:gunpowder',g:'#forge:gravel'}
+		{C:'#forge:plates/brass',G:'#forge:gunpowder',g:'#forge:gravel'}
 	),
 	new ShapedRecipe(
 		'cgm:grenade',
@@ -141,6 +141,12 @@ const shaped = [
 		'1',
 		['iII','ITI','III'],
 		{i:'#forge:nuggets/iron',I:'#forge:plates/iron',T:'minecraft:glowstone'}
+	),
+	new ShapedRecipe(
+		'cgm:workbench',
+		'1',
+		['PPP','S S','S S'],
+		{P:'#forge:plates/steel',I:'#forge:storage_blocks/steel'}
 	)
 ]
 
@@ -163,10 +169,23 @@ const shapeless = [
 ]
 
 const recipesToDelete = [
-	'cgm:workbench',
 	'nzgexpansion:hunting_rifle',
 	'nzgexpansion:hunting_shotgun',
 	'nzgexpansion:revolver',
+	'nzgexpansion:micro_smg',
+	'nzgexpansion:submachine_gun',
+	'nzgexpansion:heavy_assault_rifle',
+	'nzgexpansion:battle_rifle',
+	'nzgexpansion:sniper_rifle',
+	'cgm:pistol',
+	'cgm:shotgun',
+	'cgm:rifle',
+	'cgm:grenade_launcher',
+	'cgm:bazooka',
+	'cgm:mini_gun',
+	'cgm:assault_rifle',
+	'cgm:machine_pistol',
+	'cgm:heavy_rifle',
 	'minecraft:wooden_sword',
 	'minecraft:wooden_pickaxe',
 	'minecraft:wooden_shovel',
@@ -185,9 +204,12 @@ const recipesToDelete = [
 	'nzgexpansion:medium_bullet',
 	'cgm:shell',
 	'cgm:grenade',
+	'cgm:missile',
+	'cgm:advanced_bullet',
 	'cgm:stun_grenade',
 	'thermal:copper_plate',
-	'beyond_earth:compressed_steel'
+	'beyond_earth:compressed_steel',
+	'beyond_earth:steel_ingot'
 ]
 
 recipesToDelete.forEach(x => {
@@ -208,14 +230,9 @@ shaped.forEach(x => {
 shapeless.forEach(x => {
 	onEvent('recipes', event => {
 		event.shapeless(`${x.count}x ${x.item}`,x.ingredients)
-		event.shapeless(`1x thermal:copper_plate`, [
-			'#forge:ingots/copper',
-			Item.of('beyond_earth:hammer')
-		]).damageIngredient(1).keepIngredient('beyond_earth:hammer')
-		event.shapeless(`1x beyond_earth:compressed_steel`, [
-			'#forge:ingots/steel',
-			Item.of('beyond_earth:hammer')
-		]).damageIngredient(1).keepIngredient('beyond_earth:hammer')
+		event.replaceInput({type:'minecraft:crafting_shapeless'}, 'beyond_earth:compressed_steel','#forge:plates/steel')
+		event.replaceInput({type:'minecraft:crafting_shaped'}, 'beyond_earth:compressed_steel','#forge:plates/steel')
+		event.smelting('minecraft:leather','minecraft:rotten_flesh')
 	})
 	
 })

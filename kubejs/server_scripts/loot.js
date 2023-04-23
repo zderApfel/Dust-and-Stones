@@ -153,11 +153,11 @@ onEvent('lootjs', (event) => {
         ])
 
     event.addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.2)
+        .randomChance(0.1)
         .addWeightedLoot([0,2],[
-            Item.of('firstaid:plaster').withChance(100),
-            Item.of('firstaid:bandage').withChance(75),
-            Item.of('firstaid:morphine').withChance(50)
+            Item.of('firstaid:plaster').withChance(30),
+            Item.of('firstaid:bandage').withChance(15),
+            Item.of('firstaid:morphine').withChance(5)
         ])
 
     event.addLootTypeModifier(LootType.CHEST)
