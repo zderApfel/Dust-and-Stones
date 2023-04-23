@@ -21,15 +21,6 @@
 		crimson = true
 		warped = true
 
-	[wood_type.twigs]
-		bamboo = true
-
-	[wood_type.biomemakeover]
-		blighted_balsa = true
-		willow = true
-		swamp_cypress = true
-		ancient_oak = true
-
 [leaves_type]
 
 	[leaves_type.minecraft]
@@ -41,13 +32,4 @@
 		dark_oak = true
 		azalea = true
 		flowering_azalea = true
-
-	[leaves_type.twigs]
-		bamboo = true
-
-	[leaves_type.biomemakeover]
-		blighted_balsa = true
-		willow = true
-		swamp_cypress = true
-		ancient_oak = true
 

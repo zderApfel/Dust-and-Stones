@@ -7,8 +7,8 @@ function ShapedRecipe(item, quantity, shape, ingredients){
     this.ingredients = ingredients;
 }
 
-function ShapelessRecipe(item, quantity, ingredients){
+function ShapelessRecipe(item, count, ingredients){
     this.item = item;
-    this.quantity = quantity;
+    this.count = count;
     this.ingredients = ingredients;
 }
