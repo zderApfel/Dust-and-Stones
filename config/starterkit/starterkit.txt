@@ -3,6 +3,7 @@
 'chest' : '',
 'legs' : '',
 'feet' : '',
+'feet' : '',
 0 : '{Count:1b,id:"nzgexpansion:revolver",tag:{Damage:0}}',
 1 : '{Count:1b,id:"minecraft:stone_sword",tag:{Damage:0}}',
 2 : '',

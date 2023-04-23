@@ -70,5 +70,5 @@ buttonAlignment = "RIGHT"
 	[client.controls]
 		#A value to multiple the mouse sensitivity by when aiming down weapon sights. Go to (Options > Controls > Mouse Settings > ADS Sensitivity) in game to change this!
 		#Range: 0.0 ~ 1.0
-		aimDownSightSensitivity = 0.949999988079071
+		aimDownSightSensitivity = 0.8999999761581421
 

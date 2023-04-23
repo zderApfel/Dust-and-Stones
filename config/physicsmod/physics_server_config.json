@@ -1,6 +1,6 @@
 {
-  "collapse": false,
-  "maxCollapseObjects": 71,
+  "collapse": true,
+  "maxCollapseObjects": 100,
   "collapseSpeed": 10,
   "dropBlocks": true
 }

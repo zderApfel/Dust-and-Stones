@@ -65,7 +65,7 @@
 	#-------------------------------------------
 	#Default: false
 	#-------------------------------------------
-	"Boolean: Enable Nutrition (Beta)" = true
+	"Boolean: Enable Nutrition (Beta)" = false
 
 [Micellaneous]
 	#

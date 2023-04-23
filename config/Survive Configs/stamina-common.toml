@@ -68,7 +68,7 @@
 #Default: 21.0
 #-------------------------------------------
 #Range: 0.0 ~ 10000.0
-"Float: Maximum Armor Carry Weight" = 45.0
+"Float: Maximum Armor Carry Weight" = 21.0
 #
 ############################################
 #The maximum stamina the player has

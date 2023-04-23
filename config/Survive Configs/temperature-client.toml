@@ -4,7 +4,7 @@
 #-------------------------------------------
 #Default: -66
 #-------------------------------------------
-"Temperature Bar X Position" = 0
+"Temperature Bar X Position" = -66
 #
 ############################################
 #The y offset from the center of the screen where the temperature should render
@@ -37,5 +37,5 @@
 #-------------------------------------------
 #Default: false
 #-------------------------------------------
-"Boolean: Display Temperature in Fahrenheit" = true
+"Boolean: Display Temperature in Fahrenheit" = false
 

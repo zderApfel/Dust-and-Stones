@@ -1,6 +1,0 @@
-
-#Select which advancements you don't want or want to cancel.
-["Cancel loading?"]
-	Advancements = true
-	"Recipe Advancements" = true
-

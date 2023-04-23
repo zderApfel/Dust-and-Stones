@@ -298,7 +298,7 @@
 		canBurnInSunlight = true
 		canBeWithered = false
 		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
-		blacklist = ["minecraft:flower_forest", "minecraft:mushroom_fields"]
+		blacklist = ["minecraft:mushroom_fields", "minecraft:flower_forest"]
 		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".revenant]
@@ -312,7 +312,7 @@
 		canBurnInSunlight = true
 		canBeWithered = false
 		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
-		blacklist = ["minecraft:flower_forest", "minecraft:mushroom_fields"]
+		blacklist = ["minecraft:mushroom_fields", "minecraft:flower_forest"]
 		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".reaper]
@@ -326,7 +326,7 @@
 		canBurnInSunlight = true
 		canBeWithered = false
 		whitelist = ["graveyard_biomes:eroded_haunted_forest"]
-		blacklist = ["minecraft:flower_forest", "minecraft:mushroom_fields"]
+		blacklist = ["minecraft:mushroom_fields", "minecraft:flower_forest"]
 		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".nightmare]
@@ -340,7 +340,7 @@
 		canBurnInSunlight = false
 		canBeWithered = false
 		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
-		blacklist = ["minecraft:flower_forest", "minecraft:mushroom_fields"]
+		blacklist = ["minecraft:mushroom_fields", "minecraft:flower_forest"]
 		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".skeleton_creeper]
@@ -354,7 +354,7 @@
 		canBurnInSunlight = true
 		canBeWithered = false
 		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
-		blacklist = ["minecraft:flower_forest", "minecraft:mushroom_fields"]
+		blacklist = ["minecraft:mushroom_fields", "minecraft:flower_forest"]
 		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".acolyte]
@@ -368,7 +368,7 @@
 		canBurnInSunlight = false
 		canBeWithered = false
 		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
-		blacklist = ["minecraft:flower_forest", "minecraft:mushroom_fields"]
+		blacklist = ["minecraft:mushroom_fields", "minecraft:flower_forest"]
 		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".wraith]
@@ -382,7 +382,7 @@
 		canBurnInSunlight = true
 		canBeWithered = false
 		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
-		blacklist = ["minecraft:flower_forest", "minecraft:mushroom_fields"]
+		blacklist = ["minecraft:mushroom_fields", "minecraft:flower_forest"]
 		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".corruptedPillager]
@@ -396,7 +396,7 @@
 		canBurnInSunlight = true
 		canBeWithered = false
 		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
-		blacklist = ["minecraft:flower_forest", "minecraft:mushroom_fields"]
+		blacklist = ["minecraft:mushroom_fields", "minecraft:flower_forest"]
 		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 	["The Graveyard - Mob Spawning Config".corruptedVindicator]
@@ -410,7 +410,7 @@
 		canBurnInSunlight = true
 		canBeWithered = false
 		whitelist = ["#taiga", "#extreme_hills", "#jungle", "#mesa", "#plains", "#savanna", "#icy", "#beach", "#forest", "#desert", "#swamp", "#underground", "#mountain"]
-		blacklist = ["minecraft:flower_forest", "minecraft:mushroom_fields"]
+		blacklist = ["minecraft:mushroom_fields", "minecraft:flower_forest"]
 		modWhitelist = ["#minecraft", "#graveyard_biomes"]
 
 ["The Graveyard - Horde Config"]

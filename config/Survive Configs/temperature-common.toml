@@ -29,7 +29,7 @@
 #Default: 20
 #-------------------------------------------
 #Range: 0 ~ 1980
-"Integer: Hypo/Hyperthermia Grace Timer" = 15
+"Integer: Hypo/Hyperthermia Grace Timer" = 20
 #
 ############################################
 #The speed at which the players temperature will change from their current temperature to the target temperature.

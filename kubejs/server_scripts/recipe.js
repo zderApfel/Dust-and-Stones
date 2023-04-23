@@ -126,6 +126,3 @@ shapeless.forEach(x => {
 	})
 	
 })
-
-
-

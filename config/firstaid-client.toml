@@ -39,5 +39,5 @@
 	#Set to true to enable the debuff sounds. Only matters when debuffs are enabled
 	enableSoundSystem = true
 	#Disables the funny easter eggs on certain events if false
-	enableEasterEggs = false
+	enableEasterEggs = true
 

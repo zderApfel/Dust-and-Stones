@@ -16,7 +16,7 @@
   "itemPhysics": true,
   "minecraftBlockBreakParticles": false,
   "vinePhysics": true,
-  "capePhysics": true,
+  "capePhysics": false,
   "fishingRodPhysics": true,
   "leashPhysics": true,
   "bannerPhysics": true,
@@ -25,7 +25,7 @@
   "clothThreads": 1,
   "leashLength": 3.0,
   "fishingLineLength": 12.0,
-  "pvpServerCompatibility": true,
+  "pvpServerCompatibility": false,
   "snowballModel": 0,
   "snowballImpact": 1,
   "snowballShade": false,
@@ -62,9 +62,9 @@
   },
   "mobSettings": {
     "Physics Type": 7,
-    "Lifetime": 28.200000762939453,
+    "Lifetime": 29.200000762939453,
     "Lifetime Variance": 3.0,
-    "Animation": 4
+    "Animation": -1
   },
   "sprintingPhysicsParticles": true,
   "eatingPhysicsParticles": true,
