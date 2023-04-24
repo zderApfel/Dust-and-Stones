@@ -147,6 +147,12 @@ const shaped = [
 		'1',
 		['PPP','S S','S S'],
 		{P:'#forge:plates/steel',I:'#forge:storage_blocks/steel'}
+	),
+	new ShapedRecipe(
+		'artifacts:night_vision_goggles',
+		'1',
+		['LLL','ARA','E E'],
+		{L:'minecraft:leather',A:'#forge:gems/amethyst',R:'#forge:dusts/redstone',E:'#forge:gems/emerald'}
 	)
 ]
 
@@ -164,7 +170,7 @@ const shapeless = [
 	new ShapelessRecipe(
 		'minecraft:string',
 		'4',
-		'minecraft:white_wool'
+		'#minecraft:wool'
 	)
 ]
 
@@ -186,18 +192,7 @@ const recipesToDelete = [
 	'cgm:assault_rifle',
 	'cgm:machine_pistol',
 	'cgm:heavy_rifle',
-	'minecraft:wooden_sword',
-	'minecraft:wooden_pickaxe',
-	'minecraft:wooden_shovel',
-	'minecraft:wooden_hoe',
-	"minecraft:wooden_axe",
-	"minecraft:stone_sword",
-	"minecraft:stone_pickaxe",
-	"minecraft:stone_shovel",
-	"minecraft:stone_hoe",
-	"minecraft:stone_axe",
 	'firstaid:morphine',
-	'minecraft:string',
 	'majruszsdifficulty:bandage',
 	'majruszsdifficulty:golden_bandage',
 	'cgm:basic_bullet',
@@ -207,9 +202,11 @@ const recipesToDelete = [
 	'cgm:missile',
 	'cgm:advanced_bullet',
 	'cgm:stun_grenade',
-	'thermal:copper_plate',
-	'beyond_earth:compressed_steel',
-	'beyond_earth:steel_ingot'
+	'minecraft:wooden_sword',
+	'minecraft:wooden_pickaxe',
+	'minecraft:wooden_sword',
+	'minecraft:wooden_axe',
+	'minecraft:wooden_hoe'
 ]
 
 recipesToDelete.forEach(x => {
@@ -229,9 +226,7 @@ shaped.forEach(x => {
 
 shapeless.forEach(x => {
 	onEvent('recipes', event => {
-		event.shapeless(`${x.count}x ${x.item}`,x.ingredients)
-		event.replaceInput({type:'minecraft:crafting_shapeless'}, 'beyond_earth:compressed_steel','#forge:plates/steel')
-		event.replaceInput({type:'minecraft:crafting_shaped'}, 'beyond_earth:compressed_steel','#forge:plates/steel')
+		event.shapeless(`${x.count}x ${x.item}`,x.ingredients),
 		event.smelting('minecraft:leather','minecraft:rotten_flesh')
 	})
 	

@@ -48,22 +48,10 @@ function commonLoot(type){
         //First aid loot
         event.addLootTableModifier(type)
             .randomChance(0.2)
-            .addWeightedLoot([0,2],[
+            .addWeightedLoot([0,15],[
                 Item.of('firstaid:plaster').withChance(100),
                 Item.of('firstaid:bandage').withChance(75),
                 Item.of('firstaid:morphine').withChance(50)
-            ])
-        
-        //Tools loot
-        event.addLootTableModifier(type)
-            .randomChance(0.8)
-            .addWeightedLoot([0,2],[
-                Item.of('minecraft:stone_pickaxe').withChance(100),
-                Item.of('minecraft:stone_axe').withChance(80),
-                Item.of('minecraft:stone_shovel').withChance(80),
-                Item.of('minecraft:stone_sword').withChance(90),
-                Item.of('minecraft:stone_hoe').withChance(100),
-                Item.of('curios:back').withChance(2)
             ])
         //Junk loot
         event.addLootTableModifier(type)
@@ -162,12 +150,7 @@ onEvent('lootjs', (event) => {
 
     event.addLootTypeModifier(LootType.CHEST)
         .randomChance(0.8)
-        .addWeightedLoot([1,2],[
-            Item.of('minecraft:stone_pickaxe').withChance(100),
-            Item.of('minecraft:stone_axe').withChance(80),
-            Item.of('minecraft:stone_shovel').withChance(80),
-            Item.of('minecraft:stone_sword').withChance(90),
-            Item.of('minecraft:stone_hoe').withChance(100),
+        .addWeightedLoot([0,1],[
             Item.of('curios:back').withChance(2)
         ])
 
@@ -179,4 +162,6 @@ onEvent('lootjs', (event) => {
             Item.of('forge:seeds').withChance(15),
             Item.of('forge:bread').withChance(5)
         ])
+    event.addLootTypeModifier(LootType.ENTITY).removeLoot('hardcore_torches:animal_fat')
+    event.addBlockLootModifier('#minecraft:leaves').addLoot('minecraft:stick').randomChance(0.1)
 })
