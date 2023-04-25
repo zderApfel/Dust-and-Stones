@@ -1,0 +1,62 @@
+
+{
+  "registry_name": "immersive_weathering:permafrost",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Properties": {
+              "dirty": "false"
+            },
+            "Name": "immersive_weathering:permafrost"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:dirt",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Properties": {
+              "dirty": "false"
+            },
+            "Name": "immersive_weathering:permafrost"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:grass_block",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Properties": {
+              "snowy": "false",
+              "fertile": "true"
+            },
+            "Name": "immersive_weathering:cryosol"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:snow_block",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Properties": {
+              "dirty": "false"
+            },
+            "Name": "immersive_weathering:permafrost"
+          }
+        }
+      ],
+      "size": 64,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

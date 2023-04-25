@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "hardcore_torches:replace_all",
+  "worldgen/placed_feature": {
+    "feature": "hardcore_torches:replace_all",
+    "placement": []
+  }
+}

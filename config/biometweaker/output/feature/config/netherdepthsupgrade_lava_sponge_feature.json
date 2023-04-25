@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "netherdepthsupgrade:lava_sponge_feature",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "netherdepthsupgrade:lava_sponge_feature"
+  }
+}

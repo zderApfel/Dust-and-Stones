@@ -1,0 +1,33 @@
+
+{
+  "registry_name": "minecraft:overworld",
+  "dimension": {
+    "type": "minecraft:overworld",
+    "generator": {
+      "settings": {
+        "lakes": false,
+        "features": false,
+        "biome": "minecraft:plains",
+        "structure_overrides": [
+          "minecraft:strongholds",
+          "minecraft:villages"
+        ],
+        "layers": [
+          {
+            "height": 1,
+            "block": "minecraft:bedrock"
+          },
+          {
+            "height": 2,
+            "block": "minecraft:dirt"
+          },
+          {
+            "height": 1,
+            "block": "minecraft:grass_block"
+          }
+        ]
+      },
+      "type": "minecraft:flat"
+    }
+  }
+}

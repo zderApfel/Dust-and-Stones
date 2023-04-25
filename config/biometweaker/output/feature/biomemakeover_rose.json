@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomemakeover:rose",
+  "worldgen/placed_feature": {
+    "feature": "biomemakeover:rose",
+    "placement": []
+  }
+}

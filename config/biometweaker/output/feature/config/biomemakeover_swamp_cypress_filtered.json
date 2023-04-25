@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomemakeover:swamp_cypress_filtered",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": "biomemakeover:swamp_cypress_checked",
+          "chance": 0.8
+        }
+      ],
+      "default": "biomemakeover:swamp_cypress_checked"
+    },
+    "type": "minecraft:random_selector"
+  }
+}

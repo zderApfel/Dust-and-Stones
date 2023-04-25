@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomemakeover:lilac",
+  "worldgen/placed_feature": {
+    "feature": "biomemakeover:lilac",
+    "placement": []
+  }
+}

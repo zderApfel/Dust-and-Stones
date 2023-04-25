@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomemakeover:peat",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomemakeover:peat_feature"
+  }
+}

@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "graveyard_biomes:small_spruce_tree_05_stripped",
+  "worldgen/configured_feature": {
+    "config": {
+      "wood_state": {
+        "Properties": {
+          "axis": "y"
+        },
+        "Name": "minecraft:stripped_spruce_log"
+      },
+      "leaf_state": {
+        "Properties": {
+          "persistent": "false",
+          "distance": "1"
+        },
+        "Name": "minecraft:spruce_leaves"
+      }
+    },
+    "type": "graveyard_biomes:small_spruce_tree_05"
+  }
+}

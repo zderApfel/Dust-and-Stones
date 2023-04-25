@@ -34,11 +34,10 @@
 		umbran = true
 		hellbark = true
 
-	[wood_type.biomemakeover]
-		blighted_balsa = true
+	[wood_type.environmental]
 		willow = true
-		swamp_cypress = true
-		ancient_oak = true
+		cherry = true
+		wisteria = true
 
 [leaves_type]
 
@@ -72,9 +71,7 @@
 		white_cherry = true
 		pink_cherry = true
 
-	[leaves_type.biomemakeover]
-		blighted_balsa = true
+	[leaves_type.environmental]
 		willow = true
-		swamp_cypress = true
-		ancient_oak = true
+		cherry = true
 

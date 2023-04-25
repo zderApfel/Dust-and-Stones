@@ -1,0 +1,19 @@
+
+{
+  "registry_name": "minecraft:the_nether",
+  "dimension": {
+    "type": "minecraft:the_nether",
+    "generator": {
+      "biome_source": {
+        "original_biome_source": {
+          "preset": "minecraft:nether",
+          "type": "minecraft:multi_noise"
+        },
+        "type": "blueprint:modded"
+      },
+      "seed": 876158926770822822,
+      "settings": "minecraft:nether",
+      "type": "minecraft:noise"
+    }
+  }
+}

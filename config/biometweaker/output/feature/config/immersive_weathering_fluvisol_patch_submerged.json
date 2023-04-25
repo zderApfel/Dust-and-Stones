@@ -1,0 +1,47 @@
+
+{
+  "registry_name": "immersive_weathering:fluvisol_patch_submerged",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Properties": {
+          "soaked": "false",
+          "snowy": "false",
+          "fertile": "true"
+        },
+        "Name": "immersive_weathering:fluvisol"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 6
+        }
+      },
+      "half_height": 1,
+      "targets": [
+        {
+          "Name": "minecraft:sand"
+        },
+        {
+          "Properties": {
+            "snowy": "false",
+            "fertile": "true",
+            "age": "0"
+          },
+          "Name": "minecraft:grass_block"
+        },
+        {
+          "Name": "minecraft:gravel"
+        },
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Name": "minecraft:clay"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

@@ -1,0 +1,86 @@
+
+{
+  "registry_name": "terrablender:deferred_placeholder",
+  "biome": {
+    "precipitation": "none",
+    "temperature": 0.5,
+    "downfall": 0.5,
+    "category": "none",
+    "effects": {
+      "mood_sound": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      },
+      "sky_color": 8103167,
+      "fog_color": 12638463,
+      "water_color": 4159204,
+      "water_fog_color": 329011
+    },
+    "features": {
+      "RAW_GENERATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:lc_configured"
+        }
+      ],
+      "LAKES": [],
+      "LOCAL_MODIFICATIONS": [],
+      "UNDERGROUND_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "artifacts:underground_campsite"
+        }
+      ],
+      "SURFACE_STRUCTURES": [],
+      "STRONGHOLDS": [],
+      "UNDERGROUND_ORES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_geode"
+        }
+      ],
+      "UNDERGROUND_DECORATION": [],
+      "FLUID_SPRINGS": [],
+      "VEGETAL_DECORATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "lostcities:spheres"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:patch_wild_carrots"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:patch_wild_onions"
+        }
+      ],
+      "TOP_LAYER_MODIFICATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:void_start_platform"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "hardcore_torches:replace_all"
+        }
+      ]
+    },
+    "carver": {},
+    "spawner_data": {
+      "spawners": {
+        "monster": [],
+        "creature": [],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [],
+        "misc": []
+      },
+      "spawn_costs": {}
+    }
+  }
+}

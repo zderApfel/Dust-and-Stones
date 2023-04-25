@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "takesapillage:mob_feature_archer",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "takesapillage:mob_feature_archer"
+  }
+}

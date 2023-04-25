@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "biomemakeover:mesmerite_underground",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "tag": "minecraft:base_stone_overworld",
+            "predicate_type": "minecraft:tag_match"
+          },
+          "state": {
+            "Name": "biomemakeover:mesmerite"
+          }
+        }
+      ],
+      "size": 64,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "biomemakeover:mesmerite_underground_feature"
+  }
+}

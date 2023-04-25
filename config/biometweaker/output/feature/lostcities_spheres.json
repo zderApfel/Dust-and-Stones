@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "lostcities:spheres",
+  "worldgen/placed_feature": {
+    "feature": {
+      "config": {},
+      "type": "lostcities:spheres"
+    },
+    "placement": [
+      {
+        "count": 1,
+        "type": "minecraft:count"
+      }
+    ]
+  }
+}

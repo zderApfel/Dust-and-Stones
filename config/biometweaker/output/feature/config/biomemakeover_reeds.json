@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomemakeover:reeds",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomemakeover:reed_feature"
+  }
+}

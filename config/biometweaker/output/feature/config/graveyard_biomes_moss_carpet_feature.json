@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "graveyard_biomes:moss_carpet_feature",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "graveyard_biomes:moss_carpet_feature"
+  }
+}

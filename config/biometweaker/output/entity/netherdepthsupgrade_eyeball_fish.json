@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "netherdepthsupgrade:eyeball_fish",
+  "category": "WATER_AMBIENT",
+  "fire_immune": false,
+  "summonable": false,
+  "spawn_far_from_player": false,
+  "tracking_range": 4,
+  "update_interval": 3,
+  "defaul_loot_table": "netherdepthsupgrade:entities/eyeball_fish",
+  "size": {
+    "height": 0.7,
+    "width": 0.7,
+    "fixed": false
+  }
+}

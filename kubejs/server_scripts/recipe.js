@@ -153,6 +153,12 @@ const shaped = [
 		'1',
 		['LLL','ARA','E E'],
 		{L:'minecraft:leather',A:'#forge:gems/amethyst',R:'#forge:dusts/redstone',E:'#forge:gems/emerald'}
+	),
+	new ShapedRecipe(
+		'minecraft:stone_pickaxe',
+		'1',
+		['SSS',' s ',' s '],
+		{S: "#forge:cobblestone",s:"#forge:rods/wooden"}
 	)
 ]
 
@@ -202,11 +208,7 @@ const recipesToDelete = [
 	'cgm:missile',
 	'cgm:advanced_bullet',
 	'cgm:stun_grenade',
-	'minecraft:wooden_sword',
-	'minecraft:wooden_pickaxe',
-	'minecraft:wooden_sword',
-	'minecraft:wooden_axe',
-	'minecraft:wooden_hoe'
+	'#forge:coins'
 ]
 
 recipesToDelete.forEach(x => {

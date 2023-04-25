@@ -1,0 +1,267 @@
+{
+	id: "56477A476959E40D"
+	group: ""
+	order_index: 0
+	filename: "starting_out"
+	title: "Tutorials"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "First join the world"
+			description: [
+				"Awoken with no memory, your are thrust into a world devoid of almost all of civilization. "
+				""
+				"With your limited supplies, you set out to find your purpose..."
+				"These quests are completely optional and are only meant to teach"
+				""
+				"players who are new to these types of packs. "
+				""
+				"For new players: I HIGHLY recommend learning how to use JEI (the thing that lets you search up recipes.) It's super helpful"
+			]
+			id: "6EF1682B92931F34"
+			tasks: [{
+				id: "4DCB3CDE90EFE8A4"
+				type: "dimension"
+				title: "Welcome to a New World!"
+				disable_toast: true
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "3F18FB40B32A6AB4"
+				type: "command"
+				title: "Welcome Message"
+				team_reward: true
+				auto: "no_toast"
+				ignore_reward_blocking: true
+				command: "/tellraw @p {\"text\":\"Welcome to Dust and Stones. If you've never played this before, open your quests (click on the book on the upper-left of your Inventory screen) and follow the quests there to help you start. Also PLEASE don't forget to use Just Enough Items to search a recipe before asking for help. Good luck!\",\"color\":\"green\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "I'm thirsty!"
+			x: 3.5d
+			y: -5.0d
+			subtitle: "Purify some water in a furnace"
+			description: [
+				"You gotta drink water to survive, but drinking water from any random puddle will get you quite sick."
+				"Check JEI for the recipe for purified water in a canteen"
+			]
+			dependencies: ["6EF1682B92931F34"]
+			optional: true
+			id: "3D30037B5DB31301"
+			tasks: [{
+				id: "155140FE3E68A2E4"
+				type: "item"
+				item: {
+					id: "survive:filled_canteen"
+					Count: 1b
+					tag: {
+						DrinksLeft: 3
+						Potion: "survive:purified_water"
+					}
+				}
+				consume_items: false
+			}]
+			rewards: [{
+				id: "11456A588CEBFB4F"
+				type: "toast"
+				title: "Purify some water"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "Customize your guns!"
+			x: 0.0d
+			y: -11.5d
+			subtitle: "Craft a Part Table so you can customize your guns"
+			description: [
+				"While powerful on their own, tinkering with your guns can augment them in various ways, such as reducing recoil, increasing ADS speed, increasing accuracy, etc. "
+				"Craft a Part Table so you can unlock your weapons true potential!"
+			]
+			dependencies: ["578AFA3B030F19D3"]
+			id: "065546AE55030E12"
+			tasks: [{
+				id: "6D857F55C571B85D"
+				type: "item"
+				item: "cgm:workbench"
+			}]
+			rewards: [{
+				id: "76800B1546BDE9EA"
+				type: "toast"
+				title: "Craft a Part Table"
+				description: ""
+			}]
+		}
+		{
+			title: "Acquire Harderware"
+			x: 0.0d
+			y: -10.0d
+			subtitle: "Acquire Steel"
+			description: [
+				"Iron is so last year, and it rusts :("
+				"Utilizing the power of the Create mod, you can make Steel! A stronger version of iron that can make stronger guns and many other important things."
+				"(Check the Create mod for more information)"
+			]
+			dependencies: ["678418F2EDF451FE"]
+			id: "578AFA3B030F19D3"
+			tasks: [{
+				id: "7F72458BC1D623EA"
+				type: "item"
+				item: "alloyed:steel_ingot"
+			}]
+			rewards: [
+				{
+					id: "7EC918C4E2C63F2A"
+					type: "toast"
+					title: "Acquire Harderware"
+					auto: "enabled"
+					description: ""
+				}
+				{
+					id: "6D20D0F9D7F84072"
+					type: "command"
+					auto: "enabled"
+					command: "/tellraw @p {\"text\":\"Click here to get to the list of relevant wikis for this pack\",\"bold\":true,\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/zderApfel/Dust-and-Stones/wiki\"}}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "New Player Tutorial Completed!"
+			x: 0.0d
+			y: -8.5d
+			subtitle: "You're on your own"
+			description: ["You have completed the new player tutorial. The rest is now in your hands. "]
+			dependencies: [
+				"05D65B07B35C9B98"
+				"3D30037B5DB31301"
+				"58FD2D048629CFB9"
+				"0660BD64E58DD1C8"
+			]
+			hide: true
+			id: "678418F2EDF451FE"
+			tasks: [{
+				id: "471F676AF134B14F"
+				type: "checkmark"
+				title: "Completed!"
+			}]
+			rewards: [{
+				id: "33F406E233FD280F"
+				type: "command"
+				title: "Tutorial Completed"
+				auto: "enabled"
+				command: "/tellraw @p {\"text\":\"Congratulations, you have completed the new player tutorial. the rest is now in your hands...\",\"bold\":true,\"color\":\"gold\"}"
+				player_command: false
+			}]
+		}
+		{
+			title: "I'm hurt!"
+			x: -3.5d
+			y: -5.0d
+			subtitle: "Surviving is hard :("
+			description: [
+				"This modpack will make you as health conscious as ever! Your health bar is gone and replaced with the First Aid mod (you probably already worked through it's tutorial)"
+				""
+				"All you need to do is press H (by default) to open the window, here you can apply bandages or plasters to help repair wounds on your body."
+				""
+				"Sleeping in a bed replenishes 7% of your health."
+				""
+				"You can also consume some morphine to cover the pain, but you don't gain HP this way!"
+				""
+				"Find or craft each first aid item"
+			]
+			dependencies: ["6EF1682B92931F34"]
+			optional: true
+			id: "05D65B07B35C9B98"
+			tasks: [
+				{
+					id: "4E74E459C9019B93"
+					type: "item"
+					item: "firstaid:bandage"
+					consume_items: false
+				}
+				{
+					id: "641F03E4871F959A"
+					type: "item"
+					item: "firstaid:plaster"
+					consume_items: false
+				}
+				{
+					id: "621B114CC4E14BD1"
+					type: "item"
+					item: "firstaid:morphine"
+				}
+			]
+			rewards: [{
+				id: "16D0BC73E65AC4F0"
+				type: "toast"
+				title: "DIY PHD"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "Get a stick"
+			x: 1.5d
+			y: -5.5d
+			subtitle: "Get a stick"
+			description: ["Leaves can be broken for sticks"]
+			dependencies: ["6EF1682B92931F34"]
+			id: "58FD2D048629CFB9"
+			tasks: [{
+				id: "37EF574814F6BA1F"
+				type: "item"
+				item: "minecraft:stick"
+			}]
+			rewards: [{
+				id: "68CAA4B46CBE3890"
+				type: "toast"
+				title: "The hardest task"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "More firepower"
+			x: -1.5d
+			y: -5.5d
+			subtitle: "Find or craft a hunting shotgun"
+			description: ["This revolver can only do so much, I'll need to get something better..."]
+			dependencies: ["6EF1682B92931F34"]
+			id: "0660BD64E58DD1C8"
+			tasks: [{
+				id: "4E087571BA9ABD18"
+				type: "item"
+				item: {
+					id: "nzgexpansion:hunting_shotgun"
+					Count: 1b
+					tag: {
+						AmmoCount: 4
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "233E9D6EB67EF0CD"
+					type: "item"
+					auto: "enabled"
+					item: "cgm:shell"
+					count: 28
+				}
+				{
+					id: "6809C6C71CB6DAAA"
+					type: "toast"
+					title: "More firepower!"
+					auto: "enabled"
+					description: ""
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

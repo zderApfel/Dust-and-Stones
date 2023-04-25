@@ -1,0 +1,10 @@
+
+{
+  "registry_name": "netherdepthsupgrade:warped_seagrass_mid_feature",
+  "worldgen/configured_feature": {
+    "config": {
+      "probability": 0.6
+    },
+    "type": "netherdepthsupgrade:warped_seagrass_feature"
+  }
+}

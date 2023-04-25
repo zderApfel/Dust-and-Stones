@@ -1,0 +1,272 @@
+
+{
+  "registry_name": "biomesoplenty:erupting_inferno",
+  "biome": {
+    "precipitation": "none",
+    "temperature": 2.0,
+    "downfall": 0.0,
+    "category": "nether",
+    "effects": {
+      "mood_sound": {
+        "sound": "minecraft:ambient.basalt_deltas.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.basalt_deltas.additions",
+        "tick_chance": 0.0111
+      },
+      "music": {
+        "sound": "biomesoplenty:music.nether.erupting_inferno",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      },
+      "particle": {
+        "options": {
+          "type": "minecraft:smoke"
+        },
+        "probability": 2.3065104E-4
+      },
+      "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+      "sky_color": 7254527,
+      "fog_color": 5188371,
+      "water_color": 4159204,
+      "water_fog_color": 329011
+    },
+    "features": {
+      "RAW_GENERATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:lc_configured"
+        }
+      ],
+      "LAKES": [],
+      "LOCAL_MODIFICATIONS": [],
+      "UNDERGROUND_STRUCTURES": [],
+      "SURFACE_STRUCTURES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:inferno_delta"
+        }
+      ],
+      "STRONGHOLDS": [],
+      "UNDERGROUND_ORES": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "create:striated_ores_nether"
+        }
+      ],
+      "UNDERGROUND_DECORATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:spring_open"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:patch_fire"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:patch_soul_fire"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:glowstone_extra"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:glowstone"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_magma"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:spring_closed"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_gravel_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_blackstone"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_gold_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_quartz_nether"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_ancient_debris_large"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:ore_debris_small"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:inferno_lava_spring"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:inferno_splatter"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:large_fumarole"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:small_fumarole"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:brimstone_bud"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "biomesoplenty:brimstone_cluster"
+        }
+      ],
+      "FLUID_SPRINGS": [],
+      "VEGETAL_DECORATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "netherdepthsupgrade:warped_seagrass_simple_feature"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "netherdepthsupgrade:warped_kelp_feature"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "netherdepthsupgrade:warped_seagrass_slightly_less_short_feature"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "netherdepthsupgrade:warped_seagrass_short_feature"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "netherdepthsupgrade:warped_seagrass_mid_feature"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "netherdepthsupgrade:warped_seagrass_tall_feature"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "netherdepthsupgrade:vent_feature"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "netherdepthsupgrade:lava_sponge_feature"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "lostcities:spheres"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:patch_wild_tomatoes"
+        },
+        {
+          "kind": "REFERENCE",
+          "registry_name": "nethersdelight:patch_propelplant_cane"
+        }
+      ],
+      "TOP_LAYER_MODIFICATION": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "hardcore_torches:replace_all"
+        }
+      ]
+    },
+    "carver": {
+      "AIR": [
+        {
+          "kind": "REFERENCE",
+          "registry_name": "minecraft:nether_cave"
+        }
+      ]
+    },
+    "spawner_data": {
+      "spawners": {
+        "monster": [
+          {
+            "type": "minecraft:ghast",
+            "weight": 50,
+            "minCount": 4,
+            "maxCount": 4
+          },
+          {
+            "type": "minecraft:magma_cube",
+            "weight": 2,
+            "minCount": 4,
+            "maxCount": 4
+          },
+          {
+            "type": "minecraft:zombified_piglin",
+            "weight": 100,
+            "minCount": 4,
+            "maxCount": 4
+          },
+          {
+            "type": "minecraft:piglin",
+            "weight": 15,
+            "minCount": 4,
+            "maxCount": 4
+          },
+          {
+            "type": "minecraft:enderman",
+            "weight": 1,
+            "minCount": 4,
+            "maxCount": 4
+          }
+        ],
+        "creature": [
+          {
+            "type": "minecraft:strider",
+            "weight": 60,
+            "minCount": 1,
+            "maxCount": 2
+          }
+        ],
+        "ambient": [],
+        "axolotls": [],
+        "underground_water_creature": [],
+        "water_creature": [],
+        "water_ambient": [
+          {
+            "type": "netherdepthsupgrade:bonefish",
+            "weight": 8,
+            "minCount": 1,
+            "maxCount": 5
+          },
+          {
+            "type": "netherdepthsupgrade:searing_cod",
+            "weight": 10,
+            "minCount": 3,
+            "maxCount": 6
+          },
+          {
+            "type": "netherdepthsupgrade:glowdine",
+            "weight": 8,
+            "minCount": 4,
+            "maxCount": 6
+          }
+        ],
+        "misc": []
+      },
+      "spawn_costs": {}
+    }
+  }
+}

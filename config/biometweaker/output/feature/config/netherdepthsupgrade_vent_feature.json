@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "netherdepthsupgrade:vent_feature",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "netherdepthsupgrade:vent_feature"
+  }
+}

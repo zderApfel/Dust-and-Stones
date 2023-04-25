@@ -1,0 +1,23 @@
+
+{
+  "registry_name": "biomemakeover:df_tall_grass",
+  "worldgen/placed_feature": {
+    "feature": "biomemakeover:df_tall_grass",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "WORLD_SURFACE_WG",
+        "type": "minecraft:heightmap"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "chance": 3,
+        "type": "minecraft:rarity_filter"
+      }
+    ]
+  }
+}

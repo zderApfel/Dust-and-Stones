@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "biomemakeover:adjudicator",
+  "category": "MONSTER",
+  "fire_immune": true,
+  "summonable": false,
+  "spawn_far_from_player": false,
+  "tracking_range": 12,
+  "update_interval": 3,
+  "defaul_loot_table": "biomemakeover:entities/adjudicator",
+  "size": {
+    "height": 1.95,
+    "width": 0.6,
+    "fixed": false
+  }
+}

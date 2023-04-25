@@ -1,0 +1,22 @@
+
+{
+  "registry_name": "biomemakeover:swamp_cypress_checked",
+  "worldgen/placed_feature": {
+    "feature": "biomemakeover:swamp_cypress",
+    "placement": [
+      {
+        "predicate": {
+          "state": {
+            "Properties": {
+              "waterlogged": "true",
+              "stage": "0"
+            },
+            "Name": "biomemakeover:swamp_cypress_sapling"
+          },
+          "type": "minecraft:would_survive"
+        },
+        "type": "minecraft:block_predicate_filter"
+      }
+    ]
+  }
+}

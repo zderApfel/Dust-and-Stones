@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "netherdepthsupgrade:warped_kelp_feature",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "netherdepthsupgrade:warped_kelp_feature"
+  }
+}

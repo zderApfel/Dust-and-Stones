@@ -1,0 +1,17 @@
+
+{
+  "registry_name": "lostcities:lostcity",
+  "dimension": {
+    "type": "lostcities:lostcity",
+    "generator": {
+      "biome_source": {
+        "preset": "minecraft:overworld",
+        "type": "minecraft:multi_noise"
+      },
+      "seed": 876158926770822822,
+      "settings": "minecraft:overworld",
+      "type": "minecraft:noise"
+    },
+    "forge:use_server_seed": true
+  }
+}

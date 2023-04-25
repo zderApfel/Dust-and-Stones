@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "thermal:silver_ore",
+  "worldgen/placed_feature": {
+    "feature": "thermal:silver_ore",
+    "placement": [
+      {
+        "count": 4,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": -60
+          },
+          "max_inclusive": {
+            "absolute": 40
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "snowundertrees:snow_under_trees",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "snowundertrees:snow_under_trees"
+  }
+}

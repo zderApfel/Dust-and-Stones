@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomemakeover:saguro_cactus",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomemakeover:saguaro_cactus_feature"
+  }
+}

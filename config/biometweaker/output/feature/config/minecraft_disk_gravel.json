@@ -1,0 +1,33 @@
+
+{
+  "registry_name": "minecraft:disk_gravel",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "minecraft:gravel"
+      },
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 2,
+          "max_inclusive": 5
+        }
+      },
+      "half_height": 2,
+      "targets": [
+        {
+          "Name": "minecraft:dirt"
+        },
+        {
+          "Properties": {
+            "snowy": "false",
+            "fertile": "true",
+            "age": "0"
+          },
+          "Name": "minecraft:grass_block"
+        }
+      ]
+    },
+    "type": "minecraft:disk"
+  }
+}

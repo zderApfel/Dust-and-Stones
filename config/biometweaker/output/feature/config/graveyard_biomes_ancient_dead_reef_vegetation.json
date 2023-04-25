@@ -1,0 +1,32 @@
+
+{
+  "registry_name": "graveyard_biomes:ancient_dead_reef_vegetation",
+  "worldgen/configured_feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "config": {},
+            "type": "graveyard_biomes:dead_coral_tree_feature"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {},
+            "type": "graveyard_biomes:dead_coral_claw_feature"
+          },
+          "placement": []
+        },
+        {
+          "feature": {
+            "config": {},
+            "type": "graveyard_biomes:dead_coral_mushroom_feature"
+          },
+          "placement": []
+        }
+      ]
+    },
+    "type": "minecraft:simple_random_selector"
+  }
+}

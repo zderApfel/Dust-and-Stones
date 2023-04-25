@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "hardcore_torches:replace_all",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "hardcore_torches:replace_all"
+  }
+}

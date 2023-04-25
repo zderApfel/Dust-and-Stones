@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "takesapillage:mob_feature_illager",
+  "worldgen/placed_feature": {
+    "feature": "takesapillage:mob_feature_illager",
+    "placement": []
+  }
+}

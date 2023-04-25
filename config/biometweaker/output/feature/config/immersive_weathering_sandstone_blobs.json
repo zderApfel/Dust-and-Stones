@@ -1,0 +1,61 @@
+
+{
+  "registry_name": "immersive_weathering:sandstone_blobs",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:granite",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Properties": {
+              "soaked": "false",
+              "fertile": "true"
+            },
+            "Name": "immersive_weathering:cracked_mud"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:diorite",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Properties": {
+              "soaked": "false",
+              "fertile": "true"
+            },
+            "Name": "immersive_weathering:cracked_mud"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:andesite",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Properties": {
+              "soaked": "false",
+              "fertile": "true"
+            },
+            "Name": "immersive_weathering:cracked_mud"
+          }
+        },
+        {
+          "target": {
+            "block": "minecraft:stone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Name": "minecraft:sandstone"
+          }
+        }
+      ],
+      "size": 64,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

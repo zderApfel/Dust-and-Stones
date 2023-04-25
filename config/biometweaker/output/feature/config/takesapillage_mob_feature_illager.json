@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "takesapillage:mob_feature_illager",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "takesapillage:mob_feature_illager"
+  }
+}

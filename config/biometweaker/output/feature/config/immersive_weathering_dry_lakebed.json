@@ -1,0 +1,26 @@
+
+{
+  "registry_name": "immersive_weathering:dry_lakebed",
+  "worldgen/configured_feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "block": "minecraft:water",
+            "predicate_type": "minecraft:block_match"
+          },
+          "state": {
+            "Properties": {
+              "soaked": "false",
+              "fertile": "true"
+            },
+            "Name": "immersive_weathering:cracked_mud"
+          }
+        }
+      ],
+      "size": 32,
+      "discard_chance_on_air_exposure": 0.0
+    },
+    "type": "minecraft:ore"
+  }
+}

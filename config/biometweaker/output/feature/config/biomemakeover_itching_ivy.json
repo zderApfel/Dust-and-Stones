@@ -1,0 +1,8 @@
+
+{
+  "registry_name": "biomemakeover:itching_ivy",
+  "worldgen/configured_feature": {
+    "config": {},
+    "type": "biomemakeover:itching_ivy_feature"
+  }
+}

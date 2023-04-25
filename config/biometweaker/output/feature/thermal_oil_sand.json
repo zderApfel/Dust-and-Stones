@@ -1,0 +1,31 @@
+
+{
+  "registry_name": "thermal:oil_sand",
+  "worldgen/placed_feature": {
+    "feature": "thermal:oil_sand",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 40
+          },
+          "max_inclusive": {
+            "absolute": 80
+          },
+          "type": "minecraft:trapezoid"
+        },
+        "type": "minecraft:height_range"
+      }
+    ]
+  }
+}

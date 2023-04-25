@@ -1,0 +1,16 @@
+
+{
+  "registry_name": "netherdepthsupgrade:wither_bonefish",
+  "category": "WATER_AMBIENT",
+  "fire_immune": false,
+  "summonable": true,
+  "spawn_far_from_player": false,
+  "tracking_range": 4,
+  "update_interval": 3,
+  "defaul_loot_table": "netherdepthsupgrade:entities/wither_bonefish",
+  "size": {
+    "height": 0.5,
+    "width": 0.6,
+    "fixed": false
+  }
+}

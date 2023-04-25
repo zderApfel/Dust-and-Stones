@@ -1,0 +1,20 @@
+
+{
+  "registry_name": "biomemakeover:orange_glowshroom",
+  "worldgen/placed_feature": {
+    "feature": "biomemakeover:orange_glowshroom",
+    "placement": [
+      {
+        "count": 2,
+        "type": "minecraft:count"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "OCEAN_FLOOR",
+        "type": "minecraft:heightmap"
+      }
+    ]
+  }
+}

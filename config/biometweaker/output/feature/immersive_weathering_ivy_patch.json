@@ -1,0 +1,42 @@
+
+{
+  "registry_name": "immersive_weathering:ivy_patch",
+  "worldgen/placed_feature": {
+    "feature": "immersive_weathering:ivy_patch",
+    "placement": [
+      {
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 104,
+            "max_inclusive": 157
+          }
+        },
+        "type": "minecraft:count"
+      },
+      {
+        "height": {
+          "min_inclusive": {
+            "absolute": 50
+          },
+          "max_inclusive": {
+            "absolute": 100
+          },
+          "type": "minecraft:uniform"
+        },
+        "type": "minecraft:height_range"
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "heightmap": "MOTION_BLOCKING_NO_LEAVES",
+        "type": "minecraft:surface_relative_threshold_filter"
+      },
+      {
+        "tag": "immersive_weathering:has_ivy",
+        "type": "immersive_weathering:biome_tag"
+      }
+    ]
+  }
+}

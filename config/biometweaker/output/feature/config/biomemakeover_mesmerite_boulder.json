@@ -1,0 +1,12 @@
+
+{
+  "registry_name": "biomemakeover:mesmerite_boulder",
+  "worldgen/configured_feature": {
+    "config": {
+      "state": {
+        "Name": "biomemakeover:mesmerite"
+      }
+    },
+    "type": "biomemakeover:mesmerite_boulder_feature"
+  }
+}
