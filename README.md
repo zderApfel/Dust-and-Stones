@@ -10,4 +10,4 @@ The year is 4135, you are a lone survivor of a large war between the villagers a
 * Utilize fully-customizable and enchantable firearms to defend against the hoards of monsters and your fellow humans.
 
 ## Discord Link >> https://www.discord.gg/9uf68Uvzvy
-## My Patreon Link >> https://patreon.com/havendev?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link
+## My Patreon Link >> https://tinyurl.com/havendeveloper
