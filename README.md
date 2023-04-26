@@ -1,4 +1,4 @@
-(Discord Link)[https://www.discord.gg/9uf68Uvzvy]
+Discord Link >> https://www.discord.gg/9uf68Uvzvy
 
 **Dust and Stone - Surviving in a hostile world**
 
