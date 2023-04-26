@@ -34,11 +34,6 @@
 		umbran = true
 		hellbark = true
 
-	[wood_type.environmental]
-		willow = true
-		cherry = true
-		wisteria = true
-
 [leaves_type]
 
 	[leaves_type.minecraft]
@@ -70,8 +65,4 @@
 		maple = true
 		white_cherry = true
 		pink_cherry = true
-
-	[leaves_type.environmental]
-		willow = true
-		cherry = true
 
