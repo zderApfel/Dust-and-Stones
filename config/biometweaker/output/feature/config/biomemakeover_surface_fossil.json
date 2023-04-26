@@ -1,8 +1,0 @@
-
-{
-  "registry_name": "biomemakeover:surface_fossil",
-  "worldgen/configured_feature": {
-    "config": {},
-    "type": "biomemakeover:surface_fossil_feature"
-  }
-}

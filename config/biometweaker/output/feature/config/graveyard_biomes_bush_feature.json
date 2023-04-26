@@ -1,8 +1,0 @@
-
-{
-  "registry_name": "graveyard_biomes:bush_feature",
-  "worldgen/configured_feature": {
-    "config": {},
-    "type": "graveyard_biomes:bush_feature"
-  }
-}

@@ -12,7 +12,7 @@
 5 : '{Count:20b,id:"minecraft:torch"}',
 6 : '{Count:1b,id:"survive:canteen"}',
 7 : '{Count:10b,id:"minecraft:bread"}',
-8 : '{Count:18b,id:"cgm:basic_bullet"}',
+8 : '{Count:24b,id:"cgm:basic_bullet"}',
 9 : '',
 10 : '',
 11 : '',

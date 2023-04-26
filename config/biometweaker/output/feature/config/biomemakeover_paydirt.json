@@ -1,8 +1,0 @@
-
-{
-  "registry_name": "biomemakeover:paydirt",
-  "worldgen/configured_feature": {
-    "config": {},
-    "type": "biomemakeover:paydirt_feature"
-  }
-}

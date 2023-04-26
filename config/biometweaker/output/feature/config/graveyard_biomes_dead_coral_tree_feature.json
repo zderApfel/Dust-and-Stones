@@ -1,8 +1,0 @@
-
-{
-  "registry_name": "graveyard_biomes:dead_coral_tree_feature",
-  "worldgen/configured_feature": {
-    "config": {},
-    "type": "graveyard_biomes:dead_coral_patch_feature"
-  }
-}

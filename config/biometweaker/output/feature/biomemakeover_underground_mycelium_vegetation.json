@@ -1,8 +1,0 @@
-
-{
-  "registry_name": "biomemakeover:underground_mycelium_vegetation",
-  "worldgen/placed_feature": {
-    "feature": "biomemakeover:underground_mycelium_vegetation",
-    "placement": []
-  }
-}

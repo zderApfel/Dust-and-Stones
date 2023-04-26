@@ -1,8 +1,0 @@
-
-{
-  "registry_name": "takesapillage:mob_feature_livestock",
-  "worldgen/placed_feature": {
-    "feature": "takesapillage:mob_feature_livestock",
-    "placement": []
-  }
-}

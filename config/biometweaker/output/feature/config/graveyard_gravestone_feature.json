@@ -1,8 +1,0 @@
-
-{
-  "registry_name": "graveyard:gravestone_feature",
-  "worldgen/configured_feature": {
-    "config": {},
-    "type": "graveyard:gravestone_feature"
-  }
-}

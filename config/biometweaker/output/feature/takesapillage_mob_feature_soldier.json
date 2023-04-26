@@ -1,8 +1,0 @@
-
-{
-  "registry_name": "takesapillage:mob_feature_soldier",
-  "worldgen/placed_feature": {
-    "feature": "takesapillage:mob_feature_soldier",
-    "placement": []
-  }
-}
