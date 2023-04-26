@@ -2,11 +2,11 @@
 [world]
 
 	[world.generation]
-		"Giant Mushroom generation in Swamps" = true
-		"Giant Tall Grass generation" = true
-		"Wisteria Tree generation in Flower Forests" = true
-		"Delphinium generation in Flower Forests" = true
-		"Hibiscus generation in Jungles" = true
+		"Giant Mushroom generation in Swamps" = false
+		"Giant Tall Grass generation" = false
+		"Wisteria Tree generation in Flower Forests" = false
+		"Delphinium generation in Flower Forests" = false
+		"Hibiscus generation in Jungles" = false
 
 [entities]
 	#Make farm animals spawn in less biomes to allow new mobs to take their place and diversify biome spawns
@@ -22,5 +22,5 @@
 		#Vertical radius of Serenity effect in blocks
 		"Vertical serenity range (radius)" = 8
 		#If Koi exude Serenity as a potion effect
-		"Serenity potion effect" = true
+		"Serenity potion effect" = false
 

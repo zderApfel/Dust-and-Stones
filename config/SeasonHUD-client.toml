@@ -30,5 +30,5 @@
 		enable_show_tropical_season = true
 		#Show above the Journeymap map, instead of below. 
 		# (true/false)
-		enable_above_map = false
+		enable_above_map = true
 
