@@ -9,7 +9,7 @@ required = [
 
 [datapacks]
 required = [
-    "global_packs/required_data/removeBiomes"
+    "global_packs/required_data/biomeOverride"
 ]
 
 optional = [

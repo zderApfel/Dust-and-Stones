@@ -11,7 +11,8 @@
     "botania:falling_star"
   ],
   "entityWhitelist": [
-    "botania:mana_burst"
+    "botania:mana_burst",
+    "minecraft:player"
   ],
   "tracingDistance": 128,
   "debugMode": false,
