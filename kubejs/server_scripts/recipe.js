@@ -170,7 +170,7 @@ const shapeless = [
 			'survive:sugar_water_bottle',
 			'minecraft:poppy',
 			'minecraft:poppy',
-			'hardcore_torches:lit_torch'
+			'minecraft:torch'
 		]
 	),
 	new ShapelessRecipe(

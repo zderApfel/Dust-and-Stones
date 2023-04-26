@@ -206,17 +206,20 @@
 			}]
 		}
 		{
-			title: "Get a stick"
+			title: "Learn to dodge"
 			x: 1.5d
 			y: -5.5d
-			subtitle: "Get a stick"
-			description: ["Leaves can be broken for sticks"]
+			subtitle: "Try dodging!"
+			description: [
+				"You can now dodge to avoid enemies, the keybind is LEFT ALT by default"
+				"However, you may need to change it due to conflicts"
+			]
 			dependencies: ["6EF1682B92931F34"]
 			id: "58FD2D048629CFB9"
 			tasks: [{
-				id: "37EF574814F6BA1F"
-				type: "item"
-				item: "minecraft:stick"
+				id: "1157A53D037F698B"
+				type: "checkmark"
+				title: "Click this to confirm"
 			}]
 			rewards: [{
 				id: "68CAA4B46CBE3890"

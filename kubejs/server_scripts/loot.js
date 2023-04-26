@@ -162,6 +162,5 @@ onEvent('lootjs', (event) => {
             Item.of('forge:seeds').withChance(15),
             Item.of('forge:bread').withChance(5)
         ])
-    event.addLootTypeModifier(LootType.ENTITY).removeLoot('hardcore_torches:animal_fat')
     event.addBlockLootModifier('#minecraft:leaves').addLoot('minecraft:stick').randomChance(0.1)
 })

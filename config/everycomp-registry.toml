@@ -21,19 +21,6 @@
 		crimson = true
 		warped = true
 
-	[wood_type.biomesoplenty]
-		fir = true
-		redwood = true
-		cherry = true
-		mahogany = true
-		jacaranda = true
-		palm = true
-		willow = true
-		dead = true
-		magic = true
-		umbran = true
-		hellbark = true
-
 	[wood_type.environmental]
 		willow = true
 		cherry = true
@@ -50,26 +37,6 @@
 		dark_oak = true
 		azalea = true
 		flowering_azalea = true
-
-	[leaves_type.biomesoplenty]
-		fir = true
-		redwood = true
-		mahogany = true
-		jacaranda = true
-		palm = true
-		willow = true
-		dead = true
-		magic = true
-		umbran = true
-		hellbark = true
-		origin = true
-		flowering_oak = true
-		rainbow_birch = true
-		yellow_autumn = true
-		orange_autumn = true
-		maple = true
-		white_cherry = true
-		pink_cherry = true
 
 	[leaves_type.environmental]
 		willow = true
