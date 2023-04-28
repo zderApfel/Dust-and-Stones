@@ -4,12 +4,12 @@
 [resourcepacks]
 required = [
     #"other_folder/random_pack.zip" # You can also point at specific files!
-    "global_packs/required_resources/"
+    "global_packs/required_resources"
 ]
 
 [datapacks]
 required = [
-    "global_packs/required_data/biomeOverride"
+    "global_packs/required_data/override"
 ]
 
 optional = [
