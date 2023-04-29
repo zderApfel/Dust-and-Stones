@@ -1,0 +1,328 @@
+{
+	id: "555EA1C775ABB368"
+	group: ""
+	order_index: 2
+	filename: "health"
+	title: "Health"
+	icon: "minecraft:apple"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Introduction - Health"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "You and your body."
+			description: ["In this tutorial you'll be guided through the different systems that now going into maintaining your body. "]
+			id: "5CB214FF0E1C6C8C"
+			tasks: [{
+				id: "00FA8EAEEBB4C745"
+				type: "checkmark"
+				title: "Introduction - Health"
+			}]
+			rewards: [{
+				id: "026C6705076ED8EB"
+				type: "toast"
+				title: "Introduction Read!"
+				icon: "minecraft:apple"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "First Aid"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Craft or find a combat bandage or a surgery kit."
+			description: [
+				"You may have noticed that your health meter is gone and now you see a little guy in your lower-right corner. "
+				"That is now your new health meter! "
+				""
+				"If you press H on your keyboard the FirstAid mod will you give a tutorial over how its systems work."
+				""
+				"To complete this quest, find or craft a combat bandage or surgery kit"
+			]
+			dependencies: ["5CB214FF0E1C6C8C"]
+			id: "291467ED1FB44CDE"
+			tasks: [
+				{
+					id: "17F6F622239EFBA2"
+					type: "item"
+					item: "firstaid:plaster"
+				}
+				{
+					id: "65783EA3EDB17EE1"
+					type: "item"
+					item: "firstaid:bandage"
+				}
+			]
+			rewards: [{
+				id: "510B0086C766FC9A"
+				type: "toast"
+				title: "First Aid Novice"
+				icon: "firstaid:bandage"
+				description: ""
+			}]
+		}
+		{
+			title: "Basic Medicine"
+			x: -1.5d
+			y: -1.5d
+			subtitle: "Find or craft some Emergency Clotter"
+			description: [
+				"Oh no, you're bleeding out! But bandages are too slow"
+				"Luckily, you can fashion some emergency clotter out of fermented spider eyes"
+				"and rubber. Don't ask it just works."
+			]
+			dependencies: ["291467ED1FB44CDE"]
+			optional: true
+			id: "2DE101A79F051941"
+			tasks: [{
+				id: "45CEFA84D9C0AEDB"
+				type: "item"
+				item: "majruszsdifficulty:bandage"
+			}]
+			rewards: [{
+				id: "027086E4893802D9"
+				type: "toast"
+				title: "Field Medic"
+				icon: "majruszsdifficulty:bandage"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "Advanced Medicine"
+			x: -3.0d
+			y: -1.5d
+			subtitle: "Craft blood thickener"
+			description: [
+				"Thanks to the magic of golden apples, you can make an even stronger way "
+				"to prevent bleeding: Blood Thickener!"
+				""
+				"This powerful elixir not only cures your bleeding, but also prevents further bleeding for a minute!"
+				""
+				"It SHOULDN'T have any long term side effects, odd-colored spit is normal."
+			]
+			dependencies: ["2DE101A79F051941"]
+			optional: true
+			id: "6557AC2A3D7894D3"
+			tasks: [{
+				id: "742285B7B03ECF4D"
+				type: "item"
+				item: "majruszsdifficulty:golden_bandage"
+			}]
+			rewards: [{
+				id: "7050E7163F6BBCDF"
+				type: "toast"
+				title: "Combat Doctor"
+				icon: "majruszsdifficulty:golden_bandage"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "Precious water"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Fill your canteen"
+			description: [
+				"You and your Minecraft character have something in common: They both need to drink water to survive!"
+				""
+				"Fill your canteen"
+			]
+			dependencies: ["5CB214FF0E1C6C8C"]
+			id: "278F5D16B6AB8771"
+			tasks: [{
+				id: "3D0D36FF89CDA17B"
+				type: "item"
+				item: {
+					id: "survive:filled_canteen"
+					Count: 1b
+					tag: {
+						DrinksLeft: 3
+						Potion: "minecraft:water"
+					}
+				}
+			}]
+			rewards: [{
+				id: "448C1802C7EC8BFE"
+				type: "toast"
+				title: "Dysentery time!"
+				icon: {
+					id: "survive:filled_canteen"
+					Count: 1b
+					tag: {
+						DrinksLeft: 3
+						Potion: "minecraft:water"
+					}
+				}
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "That water sucked!"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "lmao"
+			description: [
+				"You're probably reading this because either: "
+				""
+				"a) you anticipated the water making you sick and went ahead and checked this quest"
+				"b) you drank water that made you sick (lol)"
+				""
+				"Either way, you're here. So there's various ways to purify water, choose a path, or do all of them."
+			]
+			dependencies: ["278F5D16B6AB8771"]
+			id: "163A06B5E7CD83F8"
+			tasks: [{
+				id: "0445A42B536089C3"
+				type: "checkmark"
+				title: "That water sucked!"
+			}]
+			rewards: [{
+				id: "17429161E32A3E6C"
+				type: "toast"
+				title: "Lesson learned."
+				icon: "minecraft:brick"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "Cauldron Boiling"
+			x: 0.0d
+			y: 5.5d
+			subtitle: "Use a cauldron to purify water"
+			description: [
+				"The 2nd method is using a cauldron with a campfire under it to boil the water. "
+				""
+				"After an amount of time, it'll turn a lighter shade of blue, and be purified."
+			]
+			dependencies: ["163A06B5E7CD83F8"]
+			id: "7625BD8F04CC6D3B"
+			tasks: [
+				{
+					id: "1A1A240D97DCC0E9"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "053FBAB74A94C378"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "2EAA7368B7D0ADF0"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "4CB7E0A9FB8CBD2D"
+					type: "item"
+					item: {
+						id: "survive:filled_canteen"
+						Count: 1b
+						tag: {
+							DrinksLeft: 3
+							Potion: "survive:purified_water"
+						}
+					}
+					match_nbt: true
+				}
+			]
+			rewards: [{
+				id: "223B1C072621BCAC"
+				type: "toast"
+				title: "Worst Brewery"
+				icon: "minecraft:water_bucket"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "Bottle Boiling"
+			x: -2.0d
+			y: 5.5d
+			subtitle: "Put a bottle of water in a furnace"
+			description: [
+				"The 1st method involves making glass bottles and individually cooking them"
+				"in a furnace"
+			]
+			dependencies: ["163A06B5E7CD83F8"]
+			id: "54AB09CB1C25CA27"
+			tasks: [{
+				id: "6294957C5A9F5639"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "survive:purified_water"
+					}
+				}
+				match_nbt: true
+			}]
+			rewards: [{
+				id: "768CEE8A6E13CCB6"
+				type: "toast"
+				title: "Bottle Boiling"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "Filtering"
+			x: 2.0d
+			y: 5.5d
+			subtitle: "Craft or find a charcoal filter"
+			description: [
+				"The 3rd method involves a charcoal filter"
+				""
+				"These can simply be slapped next to your filled canteen in a crafting table and it'll purify your water"
+			]
+			dependencies: ["163A06B5E7CD83F8"]
+			id: "61C1A6FFBDF90D77"
+			tasks: [
+				{
+					id: "135900E1D7076DA1"
+					type: "item"
+					item: {
+						id: "survive:charcoal_filter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "32F04E0686D17B7C"
+					type: "item"
+					item: {
+						id: "survive:filled_canteen"
+						Count: 1b
+						tag: {
+							DrinksLeft: 3
+							Potion: "survive:purified_water"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "52623244300203BA"
+				type: "item"
+				title: "Mmmmm...rock water"
+				auto: "enabled"
+				item: {
+					id: "survive:charcoal_filter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

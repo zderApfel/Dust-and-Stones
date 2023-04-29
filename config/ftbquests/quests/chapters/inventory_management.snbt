@@ -1,0 +1,68 @@
+{
+	id: "3F1A33B1C99FD3A3"
+	group: ""
+	order_index: 1
+	filename: "inventory_management"
+	title: "Small Pockets"
+	icon: "minecraft:chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	progression_mode: "linear"
+	quests: [
+		{
+			title: "Introduction - Inventory"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Introduction to Inventory"
+			description: [
+				"Your inventory is now limited. You only have access to your hotbar and the armor you wear."
+				"However, there are some additional QOL features added to make this less miserable. "
+				""
+				"For example, your off-hand can now switch between up to four different items. (Left and Right arrows by default)"
+				""
+				"You can also put tools in a dedicated slot, and when you try to mine a block with your empty hand"
+				"you'll automatically pull out the tool!"
+			]
+			id: "6EAD7B6A2E6CEC5F"
+			tasks: [{
+				id: "0AC4AC5E5BE8A8CB"
+				type: "checkmark"
+				title: "Start Here"
+			}]
+			rewards: [{
+				id: "317DF9B3F2C2F741"
+				type: "toast"
+				title: "Inventory Intro Complete!"
+				icon: "minecraft:chest"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+		{
+			title: "Acquire a Backpack"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Craft or find a backpack"
+			description: [
+				"A backpack will substantially increase your inventory space, and can be upgraded even further"
+				"When you have one, press B to open it."
+			]
+			dependencies: ["6EAD7B6A2E6CEC5F"]
+			id: "11BCE1C6D841A42F"
+			tasks: [{
+				id: "6ECBA15469D90B57"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "12586A6DBC98138F"
+				type: "toast"
+				title: "Expanded Inventory"
+				icon: "sophisticatedbackpacks:backpack"
+				auto: "enabled"
+				description: ""
+			}]
+		}
+	]
+	quest_links: [ ]
+}

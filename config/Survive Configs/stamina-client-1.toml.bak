@@ -4,5 +4,5 @@
 #-------------------------------------------
 #Default: false
 #-------------------------------------------
-"Boolean: Display Weights in Pounds" = false
+"Boolean: Display Weights in Pounds" = true
 

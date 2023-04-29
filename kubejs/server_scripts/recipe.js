@@ -159,6 +159,24 @@ const shaped = [
 		'1',
 		['SSS',' s ',' s '],
 		{S: "#forge:cobblestone",s:"#forge:rods/wooden"}
+	),
+	new ShapedRecipe(
+		'firstaid:bandage',
+		'1',
+		['CCC','KCH','CCC'],
+		{C: 'majruszsdifficulty:cloth', K:'#forge:tools/knives', H:"#chiselsandbits:chisel"}
+	),
+	new ShapedRecipe(
+		'majruszsdifficulty:bandage',
+		'3',
+		['RER','ERE','RER'],
+		{R: 'thermal:rubber', E:'minecraft:fermented_spider_eye'}
+	),
+	new ShapedRecipe(
+		'majruszsdifficulty:golden_bandage',
+		'1',
+		[' E ','EME',' E '],
+		{E:'minecraft:golden_apple',M:'majruszsdifficulty:bandage'}
 	)
 ]
 
@@ -176,7 +194,25 @@ const shapeless = [
 	new ShapelessRecipe(
 		'minecraft:string',
 		'4',
-		'#minecraft:wool'
+		['#minecraft:wool']
+	),
+	new ShapelessRecipe(
+		'majruszsdifficulty:cloth',
+		'4',
+		[
+			'#minecraft:wool',
+			'#minecraft:wool'
+		]
+	),
+	new ShapelessRecipe(
+		'firstaid:plaster',
+		'3',
+		[
+			'majruszsdifficulty:cloth',
+			'majruszsdifficulty:cloth',
+			'majruszsdifficulty:cloth',
+			'majruszsdifficulty:cloth'
+		]
 	)
 ]
 
@@ -208,7 +244,10 @@ const recipesToDelete = [
 	'cgm:missile',
 	'cgm:advanced_bullet',
 	'cgm:stun_grenade',
-	'#forge:coins'
+	'#forge:coins',
+	'firstaid:plaster',
+	'firstaid:bandage',
+	'#majruszsdifficulty:tattered_armor'
 ]
 
 recipesToDelete.forEach(x => {

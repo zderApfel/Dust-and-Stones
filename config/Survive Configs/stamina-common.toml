@@ -11,7 +11,7 @@
 #-------------------------------------------
 #Default: true
 #-------------------------------------------
-"Boolean: Enable Armor Weights" = true
+"Boolean: Enable Armor Weights" = false
 #
 ############################################
 #Adds stamina exhaustion from interacting with blocks
@@ -21,7 +21,7 @@
 #Default: 1.0
 #-------------------------------------------
 #Range: 0.0 ~ 4.0
-"Float: Stamina Exhaustion From Interacting With Blocks" = 1.0
+"Float: Stamina Exhaustion From Interacting With Blocks" = 0
 #
 ############################################
 #Adds stamina exhaustion from interacting with items

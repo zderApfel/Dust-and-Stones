@@ -7,9 +7,9 @@
 	#How many half feathers it costs to dodge
 	"Dodge Cost" = 2
 	#How far the player moves when dodging
-	"Dodge Strength" = 0.25
+	"Dodge Strength" = 0.20
 	#How high the player moves when dodging
-	"Dodge Height" = 0.2
+	"Dodge Height" = 0.05
 	#Whether the player can dodge in mid-air
-	"Dodge Whilst Airborne" = false
+	"Dodge Whilst Airborne" = true
 
