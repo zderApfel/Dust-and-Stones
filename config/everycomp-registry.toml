@@ -34,6 +34,10 @@
 		umbran = true
 		hellbark = true
 
+	[wood_type.quark]
+		blossom = true
+		azalea = true
+
 [leaves_type]
 
 	[leaves_type.minecraft]
@@ -65,4 +69,12 @@
 		maple = true
 		white_cherry = true
 		pink_cherry = true
+
+	[leaves_type.quark]
+		blue_blossom = true
+		lavender_blossom = true
+		orange_blossom = true
+		pink_blossom = true
+		yellow_blossom = true
+		red_blossom = true
 

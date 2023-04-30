@@ -1,0 +1,1025 @@
+{
+	id: "5E835A106D0178AB"
+	group: "6E75DC3B71CB5F26"
+	order_index: 0
+	filename: "flea_market"
+	title: "Firearms"
+	icon: {
+		id: "cgm:pistol"
+		Count: 1b
+		tag: {
+			RepairCost: 0
+			AmmoCount: 16
+			Attachments: {
+				Barrel: {
+					Count: 1b
+					id: "nzgexpansion:muzzle_brake"
+					Color: 16701501
+				}
+			}
+			Color: 16701501
+			display: {
+				Name: "{\"text\":\"Klapp-45\"}"
+			}
+		}
+	}
+	subtitle: ["Quality Firearms at an affordable price!"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "10x Silver Coins"
+			icon: "thermal:silver_coin"
+			x: 2.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Convert Copper Coins to Silver"
+			description: [""]
+			can_repeat: true
+			id: "2174BE3B18EA9B79"
+			tasks: [{
+				id: "3F186987001BA2C3"
+				type: "item"
+				item: "thermal:copper_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1BD9AE59B1AA284C"
+				type: "item"
+				icon: "thermal:silver_coin"
+				auto: "no_toast"
+				item: "thermal:silver_coin"
+				count: 10
+			}]
+		}
+		{
+			title: "16x Basic Bullets"
+			icon: { id: "cgm:basic_bullet", Count: 16b }
+			x: 2.5d
+			y: -2.0d
+			subtitle: "Basic bullets are used for pistols and sub machine guns"
+			can_repeat: true
+			id: "3957C8595280F420"
+			tasks: [{
+				id: "39048101695A9006"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0A1D8B50B7AE82AC"
+				type: "item"
+				auto: "enabled"
+				item: "cgm:basic_bullet"
+				count: 16
+			}]
+		}
+		{
+			title: "30x Medium Bullets"
+			icon: { id: "nzgexpansion:medium_bullet", Count: 30b }
+			x: 2.5d
+			y: -5.0d
+			subtitle: "Medium bullets are used for intermediate-power rifles"
+			can_repeat: true
+			id: "42E9607061BE7F68"
+			tasks: [{
+				id: "6F1784BE8515646F"
+				type: "item"
+				icon: "thermal:silver_coin"
+				item: "thermal:silver_coin"
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3845A36AA2187AD5"
+				type: "item"
+				auto: "enabled"
+				item: "nzgexpansion:medium_bullet"
+				count: 30
+			}]
+		}
+		{
+			title: "20x Advanced Bullets"
+			icon: { id: "cgm:advanced_bullet", Count: 20b }
+			x: 2.5d
+			y: -6.5d
+			subtitle: "Advanced bullets are full-power rounds used for heavy rifles"
+			can_repeat: true
+			id: "786830BEF955F463"
+			tasks: [{
+				id: "37B2697923214025"
+				type: "item"
+				icon: "thermal:silver_coin"
+				item: "thermal:silver_coin"
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "43DEEE4340858B32"
+				type: "item"
+				auto: "enabled"
+				item: "cgm:advanced_bullet"
+				count: 20
+			}]
+		}
+		{
+			title: "20x Shells"
+			icon: { id: "cgm:shell", Count: 20b }
+			x: 2.5d
+			y: -3.5d
+			subtitle: "Shells are used in shotguns and are some of the cheapest ammo available."
+			can_repeat: true
+			id: "41543879F74B5684"
+			tasks: [{
+				id: "3A10B51B5E5DC4AD"
+				type: "item"
+				icon: "thermal:copper_coin"
+				item: "cgm:shell"
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "71B2D04B49B44C14"
+				type: "item"
+				auto: "enabled"
+				item: "cgm:shell"
+				count: 20
+			}]
+		}
+		{
+			title: "Missiles"
+			icon: { id: "cgm:missile", Count: 3b }
+			x: 2.5d
+			y: -8.0d
+			subtitle: "For when you need to kill a group of people and the ground they stand on. Used only in bazookas"
+			can_repeat: true
+			id: "4F5F24C47DB7FF9B"
+			tasks: [{
+				id: "39DD30AE5CE6DDF9"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "694FFDF0FB2ECEEC"
+				type: "item"
+				item: "cgm:missile"
+				count: 2
+			}]
+		}
+		{
+			title: "10x Gold Coins"
+			icon: "thermal:gold_coin"
+			x: 4.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Convert Silver Coins to Gold"
+			can_repeat: true
+			id: "3985A8A0F3F0EEB6"
+			tasks: [{
+				id: "7BA4723338D87F79"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 100L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "58B0D287136A7F18"
+				type: "item"
+				auto: "no_toast"
+				item: "thermal:gold_coin"
+				count: 10
+			}]
+		}
+		{
+			title: "10x Copper Coins"
+			icon: "thermal:copper_coin"
+			x: 0.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Convert a Copper Ingot into Coins"
+			can_repeat: true
+			id: "03223B670A1844D5"
+			tasks: [{
+				id: "2092C1EA5863F07B"
+				type: "item"
+				item: "minecraft:copper_block"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5CF776692822C126"
+				type: "item"
+				auto: "no_toast"
+				item: "thermal:copper_coin"
+				count: 10
+			}]
+		}
+		{
+			title: "2x Grenades"
+			icon: { id: "cgm:grenade", Count: 2b }
+			x: 2.5d
+			y: -9.5d
+			subtitle: "Can be fired out of a grenade launcher or thrown manually."
+			can_repeat: true
+			id: "69C26A291860492C"
+			tasks: [{
+				id: "25265E8638B62731"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 5L
+			}]
+			rewards: [{
+				id: "2B4512F79FD42835"
+				type: "item"
+				auto: "enabled"
+				item: "cgm:grenade"
+				count: 2
+			}]
+		}
+		{
+			title: "2x Stun Grenades"
+			icon: { id: "cgm:stun_grenade", Count: 2b }
+			x: 2.5d
+			y: -11.0d
+			subtitle: "Stun grenades are good for disorientating enemies without killing them. Good if there's teammates close"
+			can_repeat: true
+			id: "4E3B2A0B16ED4492"
+			tasks: [{
+				id: "346B57D784CC0889"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 25L
+			}]
+			rewards: [{
+				id: "38568D867BD6166D"
+				type: "item"
+				item: "cgm:stun_grenade"
+				count: 2
+			}]
+		}
+		{
+			title: "Klapp-45"
+			icon: {
+				id: "cgm:pistol"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					AmmoCount: 16
+					Attachments: {
+						Barrel: {
+							Count: 1b
+							id: "nzgexpansion:muzzle_brake"
+						}
+					}
+					Color: 16701501
+					display: {
+						Name: "{\"text\":\"Klapp-45\"}"
+					}
+				}
+			}
+			x: 1.0d
+			y: -2.0d
+			subtitle: "An average sidearm. Plated with false gold to hammer in the insecurity"
+			can_repeat: true
+			id: "1F57256DD1A82D5D"
+			tasks: [{
+				id: "373D63671774C0C4"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "39646541CA560353"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "cgm:pistol"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						AmmoCount: 0
+						Attachments: {
+							Barrel: {
+								Count: 1b
+								id: "nzgexpansion:muzzle_brake"
+								Color: 16701501
+							}
+						}
+						Color: 16701501
+						display: {
+							Name: "{\"text\":\"Klapp-45\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Doozy-9S"
+			icon: {
+				id: "nzgexpansion:micro_smg"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					AmmoCount: 32
+					Attachments: {
+						Barrel: {
+							Count: 1b
+							id: "cgm:silencer"
+						}
+						Scope: {
+							Count: 1b
+							id: "nzgexpansion:dot_sight"
+						}
+						Stock: {
+							Count: 1b
+							id: "cgm:light_stock"
+						}
+					}
+					Color: 1908001
+					display: {
+						Name: "{\"text\":\"Doozy-9S\"}"
+					}
+				}
+			}
+			x: 4.0d
+			y: -2.0d
+			subtitle: "Super-high rate of fire but low accuracy and magazine capacity"
+			can_repeat: true
+			id: "720C391D3F6D4F73"
+			tasks: [{
+				id: "34D5E13B9F3F34D0"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 35L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6C5B99934E55B414"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "nzgexpansion:micro_smg"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						AmmoCount: 0
+						Attachments: {
+							Barrel: {
+								Count: 1b
+								id: "cgm:silencer"
+							}
+							Scope: {
+								Count: 1b
+								id: "nzgexpansion:dot_sight"
+							}
+							Stock: {
+								Count: 1b
+								id: "cgm:light_stock"
+							}
+						}
+						Color: 1908001
+						display: {
+							Name: "{\"text\":\"Doozy-9S\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Woodsman-95"
+			icon: {
+				id: "nzgexpansion:hunting_rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 1
+					Attachments: {
+						Scope: {
+							Count: 1b
+							id: "cgm:long_scope"
+							tag: {
+								Color: 6250333
+							}
+						}
+					}
+					Color: 8606770
+					display: {
+						Name: "{\"text\":\"Woodsman-95\"}"
+					}
+				}
+			}
+			x: 1.0d
+			y: -5.0d
+			subtitle: "A vintage bolt-action rifle designed for hunting"
+			can_repeat: true
+			id: "138BD95827CC5631"
+			tasks: [{
+				id: "06E3B65432F3F5D1"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 15L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4A2F8942FDBFAC04"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "nzgexpansion:hunting_rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Attachments: {
+							Scope: {
+								Count: 1b
+								id: "cgm:long_scope"
+								tag: {
+									Color: 6250333
+								}
+							}
+						}
+						Color: 8606770
+						display: {
+							Name: "{\"text\":\"Woodsman-95\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Vikov-57"
+			icon: {
+				id: "nzgexpansion:heavy_assault_rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 30
+					Attachments: {
+						Stock: {
+							Count: 1b
+							id: "nzgexpansion:solid_stock"
+						}
+					}
+					Color: 16351261
+					display: {
+						Name: "{\"text\":\"Vikov-57\"}"
+					}
+				}
+			}
+			x: 4.0d
+			y: -5.0d
+			subtitle: "A certified classic. High recoil but decent damage"
+			can_repeat: true
+			id: "4C29F504C26B28F9"
+			tasks: [{
+				id: "7FFBDC97CBDDAD72"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 30L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "337BBD21C8D655C1"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "nzgexpansion:heavy_assault_rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 30
+						Attachments: {
+							Stock: {
+								Count: 1b
+								id: "nzgexpansion:solid_stock"
+							}
+						}
+						Color: 16351261
+						display: {
+							Name: "{\"text\":\"Vikov-57\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Clott-H"
+			icon: {
+				id: "nzgexpansion:battle_rifle"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					AmmoCount: 20
+					Attachments: {
+						Scope: {
+							Count: 1b
+							id: "cgm:short_scope"
+							tag: {
+								Color: 4673362
+							}
+						}
+						Stock: {
+							Count: 1b
+							id: "nzgexpansion:stabilizing_stock"
+						}
+					}
+					Color: 16701501
+					display: {
+						Name: "{\"text\":\"Clott-H\"}"
+					}
+				}
+			}
+			x: 5.5d
+			y: -5.0d
+			subtitle: "A high-tech battle rifle with a slow rate of fire but has high accuracy"
+			can_repeat: true
+			id: "01F326A03D82035C"
+			tasks: [{
+				id: "6C39A917895CCD38"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 45L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6BFDE8C17AC44F30"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "nzgexpansion:battle_rifle"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						AmmoCount: 0
+						Attachments: {
+							Scope: {
+								Count: 1b
+								id: "cgm:short_scope"
+								tag: {
+									Color: 4673362
+								}
+							}
+							Stock: {
+								Count: 1b
+								id: "nzgexpansion:stabilizing_stock"
+							}
+						}
+						Color: 16701501
+						display: {
+							Name: "{\"text\":\"Clott-H\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Finichi-12"
+			icon: {
+				id: "cgm:shotgun"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					AmmoCount: 8
+					Attachments: {
+						Barrel: {
+							Count: 1b
+							id: "nzgexpansion:extended_barrel"
+						}
+						Stock: {
+							Count: 1b
+							id: "nzgexpansion:dyeable_tactical_stock"
+						}
+					}
+					Color: 3290681
+					display: {
+						Name: "{\"text\":\"Finichi-12\"}"
+					}
+				}
+			}
+			x: 4.0d
+			y: -3.5d
+			subtitle: "An oppressive tactical shotgun. Invented by Italians"
+			can_repeat: true
+			id: "5C8CDB6FDEAFF805"
+			tasks: [{
+				id: "4B631B72E923F914"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 35L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2C2A2FB88348C067"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "cgm:shotgun"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						AmmoCount: 0
+						Attachments: {
+							Barrel: {
+								Count: 1b
+								id: "nzgexpansion:extended_barrel"
+							}
+							Stock: {
+								Count: 1b
+								id: "nzgexpansion:dyeable_tactical_stock"
+							}
+						}
+						Color: 3290681
+						display: {
+							Name: "{\"text\":\"Finichi-12\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Wordington-12"
+			icon: {
+				id: "nzgexpansion:hunting_shotgun"
+				Count: 1b
+				tag: {
+					AmmoCount: 4
+					Attachments: { }
+					Color: 8606770
+					display: {
+						Name: "{\"text\":\"Wordington-12\"}"
+					}
+				}
+			}
+			x: 1.0d
+			y: -3.5d
+			subtitle: "A classic hunting shotgun. A staple of any fireplace"
+			can_repeat: true
+			id: "08449E819A83673D"
+			tasks: [{
+				id: "3044E653EA388C21"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 20L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "01C95B6DBBF25425"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "nzgexpansion:hunting_shotgun"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Attachments: { }
+						Color: 8606770
+						display: {
+							Name: "{\"text\":\"Wordington-12\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Artemis MKII"
+			icon: {
+				id: "cgm:rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 10
+					Attachments: {
+						Barrel: {
+							Count: 1b
+							id: "cgm:silencer"
+							tag: {
+								Color: 4673362
+							}
+						}
+						Scope: {
+							Count: 1b
+							id: "cgm:long_scope"
+							tag: {
+								Color: 4673362
+							}
+						}
+						Stock: {
+							Count: 1b
+							id: "nzgexpansion:marksman_stock"
+							tag: {
+								Color: 8439583
+							}
+						}
+						Under_Barrel: {
+							Count: 1b
+							id: "nzgexpansion:horizontal_grip"
+						}
+					}
+					Color: 8439583
+					display: {
+						Name: "{\"text\":\"Artemis MKII\"}"
+					}
+				}
+			}
+			x: 1.0d
+			y: -6.5d
+			subtitle: "A precise marksman rifle for those who prefer quality over quantity."
+			can_repeat: true
+			id: "2AD7115269FB022E"
+			tasks: [{
+				id: "671BCC17F30A2C88"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 25L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "05333321D77B3410"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "cgm:rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Attachments: {
+							Barrel: {
+								Count: 1b
+								id: "cgm:silencer"
+								tag: {
+									Color: 4673362
+								}
+							}
+							Scope: {
+								Count: 1b
+								id: "cgm:medium_scope"
+								tag: {
+									Color: 4673362
+								}
+							}
+							Stock: {
+								Count: 1b
+								id: "nzgexpansion:marksman_stock"
+								tag: {
+									Color: 8439583
+								}
+							}
+							Under_Barrel: {
+								Count: 1b
+								id: "nzgexpansion:horizontal_grip"
+							}
+						}
+						Color: 8439583
+						display: {
+							Name: "{\"text\":\"Artemis MKII\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Godfist-50"
+			icon: {
+				id: "cgm:heavy_rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 4
+					Attachments: {
+						Scope: {
+							Count: 1b
+							id: "cgm:long_scope"
+							tag: {
+								Color: 4673362
+							}
+						}
+						Barrel: {
+							Count: 1b
+							id: "nzgexpansion:extended_barrel"
+							tag: {
+								Color: 1908001
+							}
+						}
+					}
+					Color: 10329495
+					display: {
+						Name: "{\"text\":\"Godfist-50\"}"
+					}
+				}
+			}
+			x: 4.0d
+			y: -6.5d
+			subtitle: "An unnecessarily powerful rifle for those who want to delete their enemies' heads and limbs"
+			can_repeat: true
+			id: "5EDE8791CFB75835"
+			tasks: [{
+				id: "7CE49F29A35A0778"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 60L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "60FE6C8B54A3BCA8"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "cgm:heavy_rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Attachments: {
+							Scope: {
+								Count: 1b
+								id: "cgm:long_scope"
+								tag: {
+									Color: 4673362
+								}
+							}
+							Barrel: {
+								Count: 1b
+								id: "nzgexpansion:extended_barrel"
+								tag: {
+									Color: 1908001
+								}
+							}
+						}
+						Color: 10329495
+						display: {
+							Name: "{\"text\":\"Godfist-50\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Mjolnir-556"
+			icon: {
+				id: "cgm:assault_rifle"
+				Count: 1b
+				tag: {
+					AmmoCount: 40
+					Attachments: {
+						Barrel: {
+							Count: 1b
+							id: "nzgexpansion:flash_hider"
+						}
+						Scope: {
+							Count: 1b
+							id: "cgm:short_scope"
+							tag: {
+								Color: 4673362
+							}
+						}
+						Stock: {
+							Count: 1b
+							id: "nzgexpansion:carbine_stock"
+						}
+					}
+					Color: 3290681
+					display: {
+						Name: "{\"text\":\"Mjolnir-556\"}"
+					}
+				}
+			}
+			x: 5.5d
+			y: -2.0d
+			subtitle: "A balanced and reliable assault rifle."
+			can_repeat: true
+			id: "780E9F00AF230DCD"
+			tasks: [{
+				id: "5A25D5A584360956"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 40L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4649DF947068CEE3"
+				type: "item"
+				icon: {
+					id: "cgm:assault_rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Attachments: {
+							Barrel: {
+								Count: 1b
+								id: "nzgexpansion:flash_hider"
+							}
+							Scope: {
+								Count: 1b
+								id: "cgm:short_scope"
+								tag: {
+									Color: 4673362
+								}
+							}
+							Stock: {
+								Count: 1b
+								id: "nzgexpansion:carbine_stock"
+							}
+						}
+						Color: 3290681
+						display: {
+							Name: "{\"text\":\"Mjolnir-556\"}"
+						}
+					}
+				}
+				auto: "no_toast"
+				item: {
+					id: "cgm:assault_rifle"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						Attachments: {
+							Barrel: {
+								Count: 1b
+								id: "nzgexpansion:flash_hider"
+							}
+							Scope: {
+								Count: 1b
+								id: "cgm:short_scope"
+								tag: {
+									Color: 4673362
+								}
+							}
+							Stock: {
+								Count: 1b
+								id: "nzgexpansion:carbine_stock"
+							}
+						}
+						Color: 3290681
+						display: {
+							Name: "{\"text\":\"Mjolnir-556\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Ytho-44"
+			icon: {
+				id: "nzgexpansion:revolver"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					AmmoCount: 6
+					Attachments: {
+						Scope: {
+							Count: 1b
+							id: "cgm:long_scope"
+						}
+						Barrel: {
+							Count: 1b
+							id: "nzgexpansion:extended_barrel"
+						}
+					}
+					Color: 10329495
+					display: {
+						Name: "{\"text\":\"Ytho-44\"}"
+					}
+				}
+			}
+			x: -0.5d
+			y: -2.0d
+			subtitle: "The perfect revolver for the eccentric showman or bastard general"
+			can_repeat: true
+			id: "38DD8536994D1556"
+			tasks: [{
+				id: "66FCA25699704584"
+				type: "item"
+				title: "Ytho-44"
+				item: "thermal:gold_coin"
+				count: 25L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "650ED29A09B66C1C"
+				type: "item"
+				auto: "no_toast"
+				item: {
+					id: "nzgexpansion:revolver"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						AmmoCount: 0
+						Attachments: {
+							Scope: {
+								Count: 1b
+								id: "cgm:long_scope"
+							}
+							Barrel: {
+								Count: 1b
+								id: "nzgexpansion:extended_barrel"
+							}
+						}
+						Color: 10329495
+						display: {
+							Name: "{\"text\":\"Ytho-44\"}"
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,6 +1,6 @@
 {
 	id: "56477A476959E40D"
-	group: ""
+	group: "0E1CDA90A8CD82DA"
 	order_index: 0
 	filename: "starting_out"
 	title: "Welcome!"
@@ -39,7 +39,7 @@
 			team_reward: true
 			auto: "enabled"
 			ignore_reward_blocking: true
-			command: "/tellraw @p {\"text\":\"Welcome to Dust and Stones. If you've never played this before, open your quests (click on the book on the upper-left of your Inventory screen) and follow the quests there to help you start. Also PLEASE don't forget to use Just Enough Items to search a recipe before asking for help. Good luck!\",\"color\":\"green\"}"
+			command: "/tellraw @p {\"text\":\"Welcome to Dust and Stones. If you've never played this before, open your quests (open the book you have) and follow the quests there to help you start. Also PLEASE don't forget to use Just Enough Items to search a recipe before asking for help. Good luck!\",\"color\":\"green\"}"
 			player_command: false
 		}]
 	}]

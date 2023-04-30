@@ -1,10 +1,11 @@
 {
 	id: "3F1A33B1C99FD3A3"
-	group: ""
+	group: "0E1CDA90A8CD82DA"
 	order_index: 1
 	filename: "inventory_management"
 	title: "Small Pockets"
 	icon: "minecraft:chest"
+	subtitle: ["The inventory works a bit differently..."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	progression_mode: "linear"
@@ -23,6 +24,7 @@
 				"You can also put tools in a dedicated slot, and when you try to mine a block with your empty hand"
 				"you'll automatically pull out the tool!"
 			]
+			dependencies: ["56477A476959E40D"]
 			id: "6EAD7B6A2E6CEC5F"
 			tasks: [{
 				id: "0AC4AC5E5BE8A8CB"

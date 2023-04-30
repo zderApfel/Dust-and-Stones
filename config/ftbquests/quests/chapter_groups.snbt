@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "0E1CDA90A8CD82DA", title: "Tutorials" }
+		{ id: "6E75DC3B71CB5F26", title: "The Market" }
+	]
 }
