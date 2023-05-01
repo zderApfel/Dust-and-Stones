@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:plates/steel",
+      "count": 18
+    }
+  ],
+  "result": {
+    "item": "nzgexpansion:micro_smg"
+  }
+}

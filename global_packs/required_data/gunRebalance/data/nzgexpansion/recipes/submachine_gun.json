@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:plates/steel",
+      "count": 22
+    }
+  ],
+  "result": {
+    "item": "nzgexpansion:submachine_gun"
+  }
+}

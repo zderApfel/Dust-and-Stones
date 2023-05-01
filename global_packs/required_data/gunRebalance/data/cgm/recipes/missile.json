@@ -2,12 +2,12 @@
   "type": "cgm:workbench",
   "materials": [
     {
-      "tag": "forge:nuggets/iron",
+      "tag": "forge:plates/steel",
       "count": 2
     },
     {
-      "tag": "forge:gunpowder",
-      "count": 4
+      "tag": "minecraft:tnt",
+      "count": 2
     }
   ],
   "result": {

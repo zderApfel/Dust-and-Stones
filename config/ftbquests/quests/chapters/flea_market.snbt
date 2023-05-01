@@ -9,7 +9,7 @@
 		Count: 1b
 		tag: {
 			RepairCost: 0
-			AmmoCount: 16
+			AmmoCount: 12
 			Attachments: {
 				Barrel: {
 					Count: 1b
@@ -23,6 +23,7 @@
 			}
 		}
 	}
+	disable_toast: true
 	subtitle: ["Quality Firearms at an affordable price!"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -48,110 +49,14 @@
 				id: "1BD9AE59B1AA284C"
 				type: "item"
 				icon: "thermal:silver_coin"
-				auto: "no_toast"
 				item: "thermal:silver_coin"
 				count: 10
 			}]
 		}
 		{
-			title: "16x Basic Bullets"
-			icon: { id: "cgm:basic_bullet", Count: 16b }
-			x: 2.5d
-			y: -2.0d
-			subtitle: "Basic bullets are used for pistols and sub machine guns"
-			can_repeat: true
-			id: "3957C8595280F420"
-			tasks: [{
-				id: "39048101695A9006"
-				type: "item"
-				item: "thermal:silver_coin"
-				count: 2L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "0A1D8B50B7AE82AC"
-				type: "item"
-				auto: "enabled"
-				item: "cgm:basic_bullet"
-				count: 16
-			}]
-		}
-		{
-			title: "30x Medium Bullets"
-			icon: { id: "nzgexpansion:medium_bullet", Count: 30b }
-			x: 2.5d
-			y: -5.0d
-			subtitle: "Medium bullets are used for intermediate-power rifles"
-			can_repeat: true
-			id: "42E9607061BE7F68"
-			tasks: [{
-				id: "6F1784BE8515646F"
-				type: "item"
-				icon: "thermal:silver_coin"
-				item: "thermal:silver_coin"
-				count: 6L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "3845A36AA2187AD5"
-				type: "item"
-				auto: "enabled"
-				item: "nzgexpansion:medium_bullet"
-				count: 30
-			}]
-		}
-		{
-			title: "20x Advanced Bullets"
-			icon: { id: "cgm:advanced_bullet", Count: 20b }
-			x: 2.5d
-			y: -6.5d
-			subtitle: "Advanced bullets are full-power rounds used for heavy rifles"
-			can_repeat: true
-			id: "786830BEF955F463"
-			tasks: [{
-				id: "37B2697923214025"
-				type: "item"
-				icon: "thermal:silver_coin"
-				item: "thermal:silver_coin"
-				count: 6L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "43DEEE4340858B32"
-				type: "item"
-				auto: "enabled"
-				item: "cgm:advanced_bullet"
-				count: 20
-			}]
-		}
-		{
-			title: "20x Shells"
-			icon: { id: "cgm:shell", Count: 20b }
-			x: 2.5d
-			y: -3.5d
-			subtitle: "Shells are used in shotguns and are some of the cheapest ammo available."
-			can_repeat: true
-			id: "41543879F74B5684"
-			tasks: [{
-				id: "3A10B51B5E5DC4AD"
-				type: "item"
-				icon: "thermal:copper_coin"
-				item: "cgm:shell"
-				count: 32L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "71B2D04B49B44C14"
-				type: "item"
-				auto: "enabled"
-				item: "cgm:shell"
-				count: 20
-			}]
-		}
-		{
 			title: "Missiles"
 			icon: { id: "cgm:missile", Count: 3b }
-			x: 2.5d
+			x: 1.0d
 			y: -8.0d
 			subtitle: "For when you need to kill a group of people and the ground they stand on. Used only in bazookas"
 			can_repeat: true
@@ -166,6 +71,7 @@
 			rewards: [{
 				id: "694FFDF0FB2ECEEC"
 				type: "item"
+				auto: "no_toast"
 				item: "cgm:missile"
 				count: 2
 			}]
@@ -189,7 +95,6 @@
 			rewards: [{
 				id: "58B0D287136A7F18"
 				type: "item"
-				auto: "no_toast"
 				item: "thermal:gold_coin"
 				count: 10
 			}]
@@ -200,7 +105,7 @@
 			x: 0.5d
 			y: -0.5d
 			shape: "diamond"
-			subtitle: "Convert a Copper Ingot into Coins"
+			subtitle: "Convert a Copper Block into Coins"
 			can_repeat: true
 			id: "03223B670A1844D5"
 			tasks: [{
@@ -212,7 +117,6 @@
 			rewards: [{
 				id: "5CF776692822C126"
 				type: "item"
-				auto: "no_toast"
 				item: "thermal:copper_coin"
 				count: 10
 			}]
@@ -221,7 +125,7 @@
 			title: "2x Grenades"
 			icon: { id: "cgm:grenade", Count: 2b }
 			x: 2.5d
-			y: -9.5d
+			y: -8.0d
 			subtitle: "Can be fired out of a grenade launcher or thrown manually."
 			can_repeat: true
 			id: "69C26A291860492C"
@@ -230,11 +134,12 @@
 				type: "item"
 				item: "thermal:gold_coin"
 				count: 5L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "2B4512F79FD42835"
 				type: "item"
-				auto: "enabled"
+				auto: "no_toast"
 				item: "cgm:grenade"
 				count: 2
 			}]
@@ -242,8 +147,8 @@
 		{
 			title: "2x Stun Grenades"
 			icon: { id: "cgm:stun_grenade", Count: 2b }
-			x: 2.5d
-			y: -11.0d
+			x: 4.0d
+			y: -8.0d
 			subtitle: "Stun grenades are good for disorientating enemies without killing them. Good if there's teammates close"
 			can_repeat: true
 			id: "4E3B2A0B16ED4492"
@@ -261,13 +166,13 @@
 			}]
 		}
 		{
-			title: "Klapp-45"
+			title: "Klapp-9"
 			icon: {
 				id: "cgm:pistol"
 				Count: 1b
 				tag: {
 					RepairCost: 0
-					AmmoCount: 16
+					AmmoCount: 12
 					Attachments: {
 						Barrel: {
 							Count: 1b
@@ -276,7 +181,7 @@
 					}
 					Color: 16701501
 					display: {
-						Name: "{\"text\":\"Klapp-45\"}"
+						Name: "{\"text\":\"Klapp-9\"}"
 					}
 				}
 			}
@@ -295,7 +200,6 @@
 			rewards: [{
 				id: "39646541CA560353"
 				type: "item"
-				auto: "no_toast"
 				item: {
 					id: "cgm:pistol"
 					Count: 1b
@@ -311,7 +215,7 @@
 						}
 						Color: 16701501
 						display: {
-							Name: "{\"text\":\"Klapp-45\"}"
+							Name: "{\"text\":\"Klapp-9\"}"
 						}
 					}
 				}
@@ -324,7 +228,7 @@
 				Count: 1b
 				tag: {
 					RepairCost: 0
-					AmmoCount: 32
+					AmmoCount: 20
 					Attachments: {
 						Barrel: {
 							Count: 1b
@@ -360,7 +264,6 @@
 			rewards: [{
 				id: "6C5B99934E55B414"
 				type: "item"
-				auto: "no_toast"
 				item: {
 					id: "nzgexpansion:micro_smg"
 					Count: 1b
@@ -426,7 +329,6 @@
 			rewards: [{
 				id: "4A2F8942FDBFAC04"
 				type: "item"
-				auto: "no_toast"
 				item: {
 					id: "nzgexpansion:hunting_rifle"
 					Count: 1b
@@ -468,6 +370,7 @@
 					}
 				}
 			}
+			disable_toast: true
 			x: 4.0d
 			y: -5.0d
 			subtitle: "A certified classic. High recoil but decent damage"
@@ -483,7 +386,6 @@
 			rewards: [{
 				id: "337BBD21C8D655C1"
 				type: "item"
-				auto: "no_toast"
 				item: {
 					id: "nzgexpansion:heavy_assault_rifle"
 					Count: 1b
@@ -530,6 +432,7 @@
 					}
 				}
 			}
+			disable_toast: true
 			x: 5.5d
 			y: -5.0d
 			subtitle: "A high-tech battle rifle with a slow rate of fire but has high accuracy"
@@ -545,7 +448,6 @@
 			rewards: [{
 				id: "6BFDE8C17AC44F30"
 				type: "item"
-				auto: "no_toast"
 				item: {
 					id: "nzgexpansion:battle_rifle"
 					Count: 1b
@@ -580,7 +482,7 @@
 				Count: 1b
 				tag: {
 					RepairCost: 0
-					AmmoCount: 8
+					AmmoCount: 7
 					Attachments: {
 						Barrel: {
 							Count: 1b
@@ -612,7 +514,6 @@
 			rewards: [{
 				id: "2C2A2FB88348C067"
 				type: "item"
-				auto: "no_toast"
 				item: {
 					id: "cgm:shotgun"
 					Count: 1b
@@ -666,7 +567,6 @@
 			rewards: [{
 				id: "01C95B6DBBF25425"
 				type: "item"
-				auto: "no_toast"
 				item: {
 					id: "nzgexpansion:hunting_shotgun"
 					Count: 1b
@@ -736,7 +636,6 @@
 			rewards: [{
 				id: "05333321D77B3410"
 				type: "item"
-				auto: "no_toast"
 				item: {
 					id: "cgm:rifle"
 					Count: 1b
@@ -778,12 +677,12 @@
 			}]
 		}
 		{
-			title: "Godfist-50"
+			title: "Godfist"
 			icon: {
 				id: "cgm:heavy_rifle"
 				Count: 1b
 				tag: {
-					AmmoCount: 4
+					AmmoCount: 3
 					Attachments: {
 						Scope: {
 							Count: 1b
@@ -802,7 +701,7 @@
 					}
 					Color: 10329495
 					display: {
-						Name: "{\"text\":\"Godfist-50\"}"
+						Name: "{\"text\":\"Godfist\"}"
 					}
 				}
 			}
@@ -821,7 +720,6 @@
 			rewards: [{
 				id: "60FE6C8B54A3BCA8"
 				type: "item"
-				auto: "no_toast"
 				item: {
 					id: "cgm:heavy_rifle"
 					Count: 1b
@@ -845,7 +743,7 @@
 						}
 						Color: 10329495
 						display: {
-							Name: "{\"text\":\"Godfist-50\"}"
+							Name: "{\"text\":\"Godfist\"}"
 						}
 					}
 				}
@@ -857,7 +755,7 @@
 				id: "cgm:assault_rifle"
 				Count: 1b
 				tag: {
-					AmmoCount: 40
+					AmmoCount: 30
 					Attachments: {
 						Barrel: {
 							Count: 1b
@@ -924,7 +822,6 @@
 						}
 					}
 				}
-				auto: "no_toast"
 				item: {
 					id: "cgm:assault_rifle"
 					Count: 1b
@@ -995,7 +892,6 @@
 			rewards: [{
 				id: "650ED29A09B66C1C"
 				type: "item"
-				auto: "no_toast"
 				item: {
 					id: "nzgexpansion:revolver"
 					Count: 1b

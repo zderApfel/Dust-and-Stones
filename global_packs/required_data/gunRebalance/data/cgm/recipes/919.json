@@ -1,0 +1,17 @@
+{
+    "type": "cgm:workbench",
+    "materials": [
+      {
+        "tag": "forge:plates/copper",
+        "count": 2 
+      },
+      {
+        "tag": "minecraft:gunpowder",
+        "count": 4
+      }
+    ],
+    "result": {
+      "item": "kubejs:9x19_round",
+      "count": 16
+    }
+  }

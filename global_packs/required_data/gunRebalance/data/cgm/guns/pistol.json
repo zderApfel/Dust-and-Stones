@@ -4,14 +4,15 @@
     "gripType": "cgm:one_handed",
     "maxAmmo": 12,
     "reloadAmount": 4,
+    "recoilKick": 0.1,
     "recoilAngle": 10.0,
     "recoilAdsReduction": 0,
     "alwaysSpread": true,
     "spread": 1.0
   },
   "projectile": {
-    "item": "cgm:basic_bullet",
-    "damage": 9.0,
+    "item": "kubejs:9x19_round",
+    "damage": 5.5,
     "size": 0.2,
     "speed": 10.0,
     "life": 25

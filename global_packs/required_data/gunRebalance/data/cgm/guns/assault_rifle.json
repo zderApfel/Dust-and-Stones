@@ -10,8 +10,8 @@
     "spread": 4.0
   },
   "projectile": {
-    "item": "cgm:basic_bullet",
-    "damage": 6.5,
+    "item": "kubejs:556_round",
+    "damage": 7,
     "size": 0.2,
     "speed": 10.0,
     "life": 25

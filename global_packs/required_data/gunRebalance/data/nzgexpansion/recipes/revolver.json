@@ -1,0 +1,12 @@
+{
+  "type": "cgm:workbench",
+  "materials": [
+    {
+      "tag": "forge:plates/iron",
+      "count": 15
+    }
+  ],
+  "result": {
+    "item": "nzgexpansion:revolver"
+  }
+}
