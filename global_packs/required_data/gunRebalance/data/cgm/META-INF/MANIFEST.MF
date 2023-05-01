@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: Gun Mod
+Specification-Vendor: MrCrayfish
+Specification-Version: 1
+Implementation-Title: Gun Mod
+Implementation-Version: 1.3.3-1.18.2
+Implementation-Vendor: MrCrayfish
+Implementation-Timestamp: 2023-01-16T20:52:47+1030
+MixinConfigs: cgm.mixins.json
+

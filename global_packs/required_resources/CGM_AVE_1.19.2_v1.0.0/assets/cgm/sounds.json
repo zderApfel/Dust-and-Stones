@@ -1,0 +1,28 @@
+{
+  "item.pistol.fire": {
+    "sounds": [
+      "cgm:item/pistol/fire2",
+      "cgm:item/pistol/fire3",
+      "cgm:item/pistol/fire4",
+      "cgm:item/pistol/fire5"
+    ]
+  },
+  
+  "item.machine_pistol.cock": {
+    "subtitle":"subtitle.cgm.cock",
+    "sounds": [{"name":"cgm:item/machine_pistol/cock"}]
+  },
+  "item.machine_pistol.fire": {
+    "sounds": [
+      "cgm:item/machine_pistol/fire2",
+      "cgm:item/machine_pistol/fire3"
+    ]
+  },
+  
+  "item.assault_rifle.fire": {
+    "sounds": [
+      "cgm:item/assault_rifle/fire2",
+      "cgm:item/assault_rifle/fire3"
+    ]
+  }
+}
