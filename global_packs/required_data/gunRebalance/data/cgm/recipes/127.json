@@ -2,12 +2,15 @@
     "type": "cgm:workbench",
     "materials": [
       {
-        "tag": "forge:plates/steel",
-        "count": 9
+        "tag": "forge:plates/brass",
+        "count": 6
       },
       {
-        "tag": "minecraft:gunpowder",
+        "item": "minecraft:gunpowder",
         "count": 6
+      },
+      {
+        "tag": "forge:nuggets/steel"
       }
     ],
     "result": {

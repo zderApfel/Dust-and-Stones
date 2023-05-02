@@ -3,10 +3,14 @@
     "materials": [
       {
         "tag": "forge:plates/brass",
-        "count": 15 
+        "count": 10 
       },
       {
-        "tag": "minecraft:gunpowder",
+        "item": "minecraft:gunpowder",
+        "count": 10
+      },
+      {
+        "tag": "forge:nuggets/lead",
         "count": 10
       }
     ],

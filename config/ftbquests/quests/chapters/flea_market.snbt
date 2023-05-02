@@ -31,8 +31,8 @@
 		{
 			title: "10x Silver Coins"
 			icon: "thermal:silver_coin"
-			x: 2.5d
-			y: -0.5d
+			x: 5.0d
+			y: -9.5d
 			shape: "diamond"
 			subtitle: "Convert Copper Coins to Silver"
 			description: [""]
@@ -56,8 +56,8 @@
 		{
 			title: "Missiles"
 			icon: { id: "cgm:missile", Count: 3b }
-			x: 1.0d
-			y: -8.0d
+			x: 5.0d
+			y: -11.0d
 			subtitle: "For when you need to kill a group of people and the ground they stand on. Used only in bazookas"
 			can_repeat: true
 			id: "4F5F24C47DB7FF9B"
@@ -79,8 +79,8 @@
 		{
 			title: "10x Gold Coins"
 			icon: "thermal:gold_coin"
-			x: 4.5d
-			y: -0.5d
+			x: 6.5d
+			y: -9.5d
 			shape: "diamond"
 			subtitle: "Convert Silver Coins to Gold"
 			can_repeat: true
@@ -102,8 +102,8 @@
 		{
 			title: "10x Copper Coins"
 			icon: "thermal:copper_coin"
-			x: 0.5d
-			y: -0.5d
+			x: 3.5d
+			y: -9.5d
 			shape: "diamond"
 			subtitle: "Convert a Copper Block into Coins"
 			can_repeat: true
@@ -124,8 +124,8 @@
 		{
 			title: "2x Grenades"
 			icon: { id: "cgm:grenade", Count: 2b }
-			x: 2.5d
-			y: -8.0d
+			x: 3.5d
+			y: -11.0d
 			subtitle: "Can be fired out of a grenade launcher or thrown manually."
 			can_repeat: true
 			id: "69C26A291860492C"
@@ -147,8 +147,8 @@
 		{
 			title: "2x Stun Grenades"
 			icon: { id: "cgm:stun_grenade", Count: 2b }
-			x: 4.0d
-			y: -8.0d
+			x: 6.5d
+			y: -11.0d
 			subtitle: "Stun grenades are good for disorientating enemies without killing them. Good if there's teammates close"
 			can_repeat: true
 			id: "4E3B2A0B16ED4492"
@@ -185,8 +185,8 @@
 					}
 				}
 			}
-			x: 1.0d
-			y: -2.0d
+			x: -1.0d
+			y: -8.0d
 			subtitle: "An average sidearm. Plated with false gold to hammer in the insecurity"
 			can_repeat: true
 			id: "1F57256DD1A82D5D"
@@ -200,6 +200,8 @@
 			rewards: [{
 				id: "39646541CA560353"
 				type: "item"
+				team_reward: false
+				auto: "no_toast"
 				item: {
 					id: "cgm:pistol"
 					Count: 1b
@@ -219,6 +221,7 @@
 						}
 					}
 				}
+				only_one: true
 			}]
 		}
 		{
@@ -249,8 +252,8 @@
 					}
 				}
 			}
-			x: 4.0d
-			y: -2.0d
+			x: 3.5d
+			y: -8.0d
 			subtitle: "Super-high rate of fire but low accuracy and magazine capacity"
 			can_repeat: true
 			id: "720C391D3F6D4F73"
@@ -314,8 +317,8 @@
 					}
 				}
 			}
-			x: 1.0d
-			y: -5.0d
+			x: 9.5d
+			y: -8.0d
 			subtitle: "A vintage bolt-action rifle designed for hunting"
 			can_repeat: true
 			id: "138BD95827CC5631"
@@ -371,8 +374,8 @@
 				}
 			}
 			disable_toast: true
-			x: 4.0d
-			y: -5.0d
+			x: 6.5d
+			y: -8.0d
 			subtitle: "A certified classic. High recoil but decent damage"
 			can_repeat: true
 			id: "4C29F504C26B28F9"
@@ -380,7 +383,7 @@
 				id: "7FFBDC97CBDDAD72"
 				type: "item"
 				item: "thermal:gold_coin"
-				count: 30L
+				count: 36L
 				consume_items: true
 			}]
 			rewards: [{
@@ -433,8 +436,8 @@
 				}
 			}
 			disable_toast: true
-			x: 5.5d
-			y: -5.0d
+			x: 8.0d
+			y: -8.0d
 			subtitle: "A high-tech battle rifle with a slow rate of fire but has high accuracy"
 			can_repeat: true
 			id: "01F326A03D82035C"
@@ -499,8 +502,8 @@
 					}
 				}
 			}
-			x: 4.0d
-			y: -3.5d
+			x: 2.0d
+			y: -8.0d
 			subtitle: "An oppressive tactical shotgun. Invented by Italians"
 			can_repeat: true
 			id: "5C8CDB6FDEAFF805"
@@ -552,8 +555,8 @@
 					}
 				}
 			}
-			x: 1.0d
-			y: -3.5d
+			x: 0.5d
+			y: -8.0d
 			subtitle: "A classic hunting shotgun. A staple of any fireplace"
 			can_repeat: true
 			id: "08449E819A83673D"
@@ -567,6 +570,7 @@
 			rewards: [{
 				id: "01C95B6DBBF25425"
 				type: "item"
+				auto: "enabled"
 				item: {
 					id: "nzgexpansion:hunting_shotgun"
 					Count: 1b
@@ -579,6 +583,7 @@
 						}
 					}
 				}
+				only_one: true
 			}]
 		}
 		{
@@ -621,9 +626,9 @@
 					}
 				}
 			}
-			x: 1.0d
-			y: -6.5d
-			subtitle: "A precise marksman rifle for those who prefer quality over quantity."
+			x: 11.0d
+			y: -8.0d
+			subtitle: "A precise, semi-auto marksman rifle for those who prefer quality over quantity."
 			can_repeat: true
 			id: "2AD7115269FB022E"
 			tasks: [{
@@ -705,8 +710,8 @@
 					}
 				}
 			}
-			x: 4.0d
-			y: -6.5d
+			x: 12.5d
+			y: -8.0d
 			subtitle: "An unnecessarily powerful rifle for those who want to delete their enemies' heads and limbs"
 			can_repeat: true
 			id: "5EDE8791CFB75835"
@@ -779,8 +784,8 @@
 					}
 				}
 			}
-			x: 5.5d
-			y: -2.0d
+			x: 5.0d
+			y: -8.0d
 			subtitle: "A balanced and reliable assault rifle."
 			can_repeat: true
 			id: "780E9F00AF230DCD"
@@ -876,8 +881,8 @@
 					}
 				}
 			}
-			x: -0.5d
-			y: -2.0d
+			x: -2.5d
+			y: -8.0d
 			subtitle: "The perfect revolver for the eccentric showman or bastard general"
 			can_repeat: true
 			id: "38DD8536994D1556"
@@ -892,6 +897,7 @@
 			rewards: [{
 				id: "650ED29A09B66C1C"
 				type: "item"
+				auto: "enabled"
 				item: {
 					id: "nzgexpansion:revolver"
 					Count: 1b
@@ -914,6 +920,256 @@
 						}
 					}
 				}
+				only_one: true
+			}]
+		}
+		{
+			title: "18x .44 Golem"
+			icon: { id: "kubejs:44_round", Count: 18b }
+			x: -2.5d
+			y: -6.5d
+			subtitle: "Used for: Revolvers"
+			can_repeat: true
+			id: "7E3B4A9F270A91D2"
+			tasks: [{
+				id: "2A9DF6891D5E9230"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5097336F3212C2A4"
+				type: "item"
+				item: "kubejs:44_round"
+				count: 18
+			}]
+		}
+		{
+			title: "36x 9x19 Cerebellum"
+			icon: { id: "kubejs:9x19_round", Count: 36b }
+			x: -1.0d
+			y: -6.5d
+			subtitle: "Used in: Pistols, Submachine Guns, Micro SMGs"
+			can_repeat: true
+			id: "4FEE86A7779083CC"
+			tasks: [{
+				id: "26D2AA50E78C7798"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1F9C21F719985471"
+				type: "item"
+				item: "kubejs:9x19_round"
+				count: 36
+			}]
+		}
+		{
+			title: "12x 12-gauge buckshot"
+			icon: { id: "kubejs:12g_round", Count: 12b }
+			x: 0.5d
+			y: -6.5d
+			subtitle: "Used in: Shotguns"
+			can_repeat: true
+			id: "4F3ECEA0450340E8"
+			tasks: [{
+				id: "14684A5B70BA39FD"
+				type: "item"
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5AD93E5B1E3FC0FD"
+				type: "item"
+				item: "kubejs:12g_round"
+				count: 12
+			}]
+		}
+		{
+			title: "21x 12-gauge buckshot"
+			icon: { id: "kubejs:12g_round", Count: 21b }
+			x: 2.0d
+			y: -6.5d
+			subtitle: "Used in: Shotguns"
+			can_repeat: true
+			id: "00599E2B9E59E6FB"
+			tasks: [
+				{
+					id: "53457E8E81A73104"
+					type: "item"
+					item: "thermal:gold_coin"
+					consume_items: true
+				}
+				{
+					id: "36FE8D0EE0D12973"
+					type: "item"
+					item: "thermal:silver_coin"
+					count: 50L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6E4F1D25BE7EF04D"
+				type: "item"
+				item: "kubejs:12g_round"
+				count: 21
+			}]
+		}
+		{
+			icon: { id: "kubejs:9x19_round", Count: 20b }
+			x: 3.5d
+			y: -6.5d
+			subtitle: "Used in: Pistols, Submachine Guns, Micro SMGs"
+			can_repeat: true
+			id: "181226283E81F28A"
+			tasks: [{
+				id: "6315C08D6C024EC1"
+				type: "item"
+				icon: "thermal:gold_coin"
+				item: "thermal:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2941A7DF7ECEA4F2"
+				type: "item"
+				item: "kubejs:9x19_round"
+				count: 20
+			}]
+		}
+		{
+			title: "30x 5.56 ILGO"
+			icon: { id: "kubejs:556_round", Count: 30b }
+			x: 5.0d
+			y: -6.5d
+			subtitle: "Used in: Assault Rifles"
+			can_repeat: true
+			id: "5B319962DA424A81"
+			tasks: [{
+				id: "11AB3819C05BA95D"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "49D6976B456C08C7"
+				type: "item"
+				item: "kubejs:556_round"
+				count: 30
+			}]
+		}
+		{
+			title: "30x 7.62x39"
+			icon: { id: "kubejs:76239_round", Count: 30b }
+			x: 6.5d
+			y: -6.5d
+			subtitle: "Used in: Heavy Assault Rifles"
+			can_repeat: true
+			id: "7343F77AA8FAF9CA"
+			tasks: [{
+				id: "28DEEE919D8CD60D"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "12B827EA5D7AA102"
+				type: "item"
+				item: "kubejs:76239_round"
+				count: 30
+			}]
+		}
+		{
+			title: "20x .308 Jebtester"
+			icon: { id: "kubejs:308_round", Count: 20b }
+			x: 8.0d
+			y: -6.5d
+			subtitle: "Used in: Battle Rifles, Hunting Rifles, Sniper Rifles"
+			can_repeat: true
+			id: "49AA875EAB04CAE3"
+			tasks: [{
+				id: "3123D355AEB452C1"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "57A5E2BFDC98C787"
+				type: "item"
+				item: "kubejs:308_round"
+				count: 20
+			}]
+		}
+		{
+			title: "1x .308 Jebtester"
+			icon: "kubejs:308_round"
+			x: 9.5d
+			y: -6.5d
+			subtitle: "Used in: Battle Rifles, Hunting Rifles, Sniper Rifles"
+			can_repeat: true
+			id: "00615DDA6A868D72"
+			tasks: [{
+				id: "2C61AA49ACF7C8CA"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 30L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "434F805806EDC57D"
+				type: "item"
+				item: "kubejs:308_round"
+				count: 20
+			}]
+		}
+		{
+			title: "10x .308 Jebtester"
+			icon: { id: "kubejs:308_round", Count: 10b }
+			x: 11.0d
+			y: -6.5d
+			subtitle: "Used in: Battle Rifles, Hunting Rifles, Sniper Rifles"
+			can_repeat: true
+			id: "29A80B1907E9562C"
+			tasks: [{
+				id: "4B41FE669DA13E5F"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "262C69F1206AC970"
+				type: "item"
+				item: "kubejs:308_round"
+				count: 10
+			}]
+		}
+		{
+			title: "3x 12.7x99 ILGO"
+			icon: { id: "kubejs:308_round", Count: 3b }
+			x: 12.5d
+			y: -6.5d
+			subtitle: "Used in: Heavy Rifles"
+			can_repeat: true
+			id: "2E1315271E76E7AC"
+			tasks: [{
+				id: "6B053B6FB51E4B35"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0FF600C9ABAF78E2"
+				type: "item"
+				item: "kubejs:127_round"
+				count: 3
 			}]
 		}
 	]

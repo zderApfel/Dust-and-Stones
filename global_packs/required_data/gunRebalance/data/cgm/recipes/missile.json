@@ -6,8 +6,12 @@
       "count": 2
     },
     {
-      "tag": "minecraft:tnt",
+      "item": "minecraft:tnt",
       "count": 2
+    },
+    {
+      "item": "minecraft:redstone_block",
+      "count": 1
     }
   ],
   "result": {

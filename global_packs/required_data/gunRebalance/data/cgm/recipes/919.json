@@ -6,7 +6,11 @@
         "count": 2 
       },
       {
-        "tag": "minecraft:gunpowder",
+        "item": "minecraft:gunpowder",
+        "count": 4
+      },
+      {
+        "tag": "forge:nuggets/lead",
         "count": 4
       }
     ],
