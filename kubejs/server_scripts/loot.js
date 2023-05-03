@@ -24,27 +24,6 @@ let uncommon = [
 
 function commonLoot(type){
     onEvent('lootjs', (event) => {
-
-        //Gun loot
-        event.addLootTableModifier(type)
-            .randomChance(0.1)
-            .addWeightedLoot([1],[
-                Item.of('nzgexpansion:revolver').withChance(2),
-                Item.of('nzgexpansion:hunting_rifle').withChance(3),
-                Item.of('nzgexpansion:hunting_shotgun').withChance(1),
-                Item.of('nzgexpansion:micro_smg').withChance(.5)
-            ])
-        
-            //Ammo loot
-            event.addLootTableModifier(type)
-            .randomChance(0.33)
-            .addWeightedLoot([5,16],[
-                Item.of('cgm:basic_bullet').withChance(30),
-                Item.of('cgm:shell').withChance(30),
-                Item.of('nzgexpansion:medium_bullet').withChance(30),
-                Item.of('minecraft:cobweb').withChance(50)
-            ])
-        
         //First aid loot
         event.addLootTableModifier(type)
             .randomChance(0.2)
@@ -67,26 +46,6 @@ function commonLoot(type){
 
 function uncommonLoot(type){
     onEvent('lootjs', (event) => {
-
-        //Gun loot
-        event.addLootTableModifier(type)
-            .randomChance(0.1)
-            .addWeightedLoot([1],[
-                Item.of('nzgexpansion:submachine_gun').withChance(20),
-                Item.of('cgm:shotgun').withChance(20),
-                Item.of('minecraft:dirt').withChance(80)
-            ])
-
-        //Ammo loot
-        event.addLootTableModifier(type)
-            .randomChance(0.33)
-            .addWeightedLoot([5,16],[
-                Item.of('cgm:basic_bullet').withChance(30),
-                Item.of('cgm:shell').withChance(30),
-                Item.of('minecraft:cobweb').withChance(50),
-                Item.of('cgm:grenade').withChance(5)
-            ])
-        
         //First aid loot
         event.addLootTableModifier(type)
             .randomChance(0.2)
