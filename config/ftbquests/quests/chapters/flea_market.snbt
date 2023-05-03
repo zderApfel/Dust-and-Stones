@@ -337,6 +337,7 @@
 					Count: 1b
 					tag: {
 						AmmoCount: 0
+						HideFlags: 2
 						Attachments: {
 							Scope: {
 								Count: 1b
@@ -393,7 +394,8 @@
 					id: "nzgexpansion:heavy_assault_rifle"
 					Count: 1b
 					tag: {
-						AmmoCount: 30
+						AmmoCount: 0
+						HideFlags: 2
 						Attachments: {
 							Stock: {
 								Count: 1b
@@ -457,6 +459,11 @@
 					tag: {
 						RepairCost: 0
 						AmmoCount: 0
+						HideFlags: 2
+						Color: 16701501
+						display: {
+							Name: "{\"text\":\"Clott-H\"}"
+						}
 						Attachments: {
 							Scope: {
 								Count: 1b
@@ -469,10 +476,6 @@
 								Count: 1b
 								id: "nzgexpansion:stabilizing_stock"
 							}
-						}
-						Color: 16701501
-						display: {
-							Name: "{\"text\":\"Clott-H\"}"
 						}
 					}
 				}
@@ -502,6 +505,7 @@
 					}
 				}
 			}
+			disable_toast: true
 			x: 2.0d
 			y: -8.0d
 			subtitle: "An oppressive tactical shotgun. Invented by Italians"
@@ -523,6 +527,11 @@
 					tag: {
 						RepairCost: 0
 						AmmoCount: 0
+						HideFlags: 2
+						Color: 3290681
+						display: {
+							Name: "{\"text\":\"Finichi-12\"}"
+						}
 						Attachments: {
 							Barrel: {
 								Count: 1b
@@ -532,10 +541,6 @@
 								Count: 1b
 								id: "nzgexpansion:dyeable_tactical_stock"
 							}
-						}
-						Color: 3290681
-						display: {
-							Name: "{\"text\":\"Finichi-12\"}"
 						}
 					}
 				}
@@ -555,6 +560,7 @@
 					}
 				}
 			}
+			disable_toast: true
 			x: 0.5d
 			y: -8.0d
 			subtitle: "A classic hunting shotgun. A staple of any fireplace"
@@ -563,6 +569,7 @@
 			tasks: [{
 				id: "3044E653EA388C21"
 				type: "item"
+				disable_toast: true
 				item: "thermal:gold_coin"
 				count: 20L
 				consume_items: true
@@ -570,12 +577,37 @@
 			rewards: [{
 				id: "01C95B6DBBF25425"
 				type: "item"
-				auto: "enabled"
+				icon: {
+					id: "nzgexpansion:hunting_shotgun"
+					Count: 1b
+					tag: {
+						AmmoCount: 0
+						HideFlags: 2
+						Color: 8606770
+						display: {
+							Name: "{\"text\":\"Wordington-12\"}"
+						}
+						Attachments: { }
+						AttributeModifiers: [{
+							AttributeName: "generic.movement_speed"
+							Operation: 2
+							UUID: [I;
+								-700897368
+								953895794
+								-1540172714
+								1000980778
+							]
+							Amount: -0.2d
+							Name: "generic.movement_speed"
+						}]
+					}
+				}
 				item: {
 					id: "nzgexpansion:hunting_shotgun"
 					Count: 1b
 					tag: {
 						AmmoCount: 0
+						HideFlags: 2
 						Attachments: { }
 						Color: 8606770
 						display: {
@@ -583,7 +615,6 @@
 						}
 					}
 				}
-				only_one: true
 			}]
 		}
 		{
@@ -646,6 +677,7 @@
 					Count: 1b
 					tag: {
 						AmmoCount: 0
+						HideFlags: 2
 						Attachments: {
 							Barrel: {
 								Count: 1b
@@ -730,6 +762,7 @@
 					Count: 1b
 					tag: {
 						AmmoCount: 0
+						HideFlags: 2
 						Attachments: {
 							Scope: {
 								Count: 1b
@@ -797,41 +830,14 @@
 				consume_items: true
 			}]
 			rewards: [{
-				id: "4649DF947068CEE3"
+				id: "1DEDEF341D3AE321"
 				type: "item"
-				icon: {
-					id: "cgm:assault_rifle"
-					Count: 1b
-					tag: {
-						AmmoCount: 0
-						Attachments: {
-							Barrel: {
-								Count: 1b
-								id: "nzgexpansion:flash_hider"
-							}
-							Scope: {
-								Count: 1b
-								id: "cgm:short_scope"
-								tag: {
-									Color: 4673362
-								}
-							}
-							Stock: {
-								Count: 1b
-								id: "nzgexpansion:carbine_stock"
-							}
-						}
-						Color: 3290681
-						display: {
-							Name: "{\"text\":\"Mjolnir-556\"}"
-						}
-					}
-				}
 				item: {
 					id: "cgm:assault_rifle"
 					Count: 1b
 					tag: {
 						AmmoCount: 0
+						HideFlags: 2
 						Attachments: {
 							Barrel: {
 								Count: 1b
@@ -1152,7 +1158,7 @@
 		}
 		{
 			title: "3x 12.7x99 ILGO"
-			icon: { id: "kubejs:308_round", Count: 3b }
+			icon: { id: "kubejs:127_round", Count: 3b }
 			x: 12.5d
 			y: -6.5d
 			subtitle: "Used in: Heavy Rifles"

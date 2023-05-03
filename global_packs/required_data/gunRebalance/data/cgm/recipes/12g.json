@@ -1,0 +1,21 @@
+{
+    "type": "cgm:workbench",
+    "materials": [
+      {
+        "tag": "forge:plates/brass",
+        "count": 6
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "count": 4
+      },
+      {
+        "item": "minecraft:gravel",
+        "count": 6
+      }
+    ],
+    "result": {
+      "item": "kubejs:44_round",
+      "count": 12
+    }
+  }

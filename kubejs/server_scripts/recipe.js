@@ -10,7 +10,7 @@ const shaped = [
 		'cgm:workbench',
 		'1',
 		['PPP','S S','S S'],
-		{P:'#forge:plates/steel',I:'#forge:storage_blocks/steel'}
+		{P:'#forge:ingots/iron',I:'#forge:storage_blocks/iron'}
 	),
 	new ShapedRecipe(
 		'artifacts:night_vision_goggles',
