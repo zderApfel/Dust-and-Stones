@@ -312,7 +312,8 @@
     },
     "dynamicIcons": {
       "default": "https://via.placeholder.com/256.png",
-      "HavenHuski": "https://mc-heads.net/avatar/7bc58298d083439883433e318bca911b"
+      "HavenHuski": "https://mc-heads.net/avatar/7bc58298d083439883433e318bca911b",
+      "snr.serverminer.com": "https://api.mcsrvstat.us/icon/snr.serverminer.com"
     },
     "dynamicVariables": {
       "default": "Example Text",

@@ -35,7 +35,11 @@ const shaped = [
 		'1',
 		[' E ','EME',' E '],
 		{E:'minecraft:golden_apple',M:'majruszsdifficulty:bandage'}
-	)
+	),
+	new ShapedRecipe(),
+	new ShapedRecipe(),
+	new ShapedRecipe(),
+	new ShapedRecipe()
 ]
 
 const shapeless = [
