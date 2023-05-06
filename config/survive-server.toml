@@ -33,5 +33,5 @@
 	#-------------------------------------------
 	#Default: true
 	#-------------------------------------------
-	"Boolean: Animal Fat Drops" = true
+	"Boolean: Animal Fat Drops" = false
 
