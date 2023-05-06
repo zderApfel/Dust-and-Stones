@@ -36,10 +36,30 @@ const shaped = [
 		[' E ','EME',' E '],
 		{E:'minecraft:golden_apple',M:'majruszsdifficulty:bandage'}
 	),
-	new ShapedRecipe(),
-	new ShapedRecipe(),
-	new ShapedRecipe(),
-	new ShapedRecipe()
+	new ShapedRecipe(
+		'survive:wool_boots',
+		'1',
+		['   ','C C','C C'],
+		{C:'majruszsdifficulty:cloth'}
+	),
+	new ShapedRecipe(
+		'survive:wool_pants',
+		'1',
+		['CCC','C C','C C'],
+		{C: 'majruszsdifficulty:cloth'}
+	),
+	new ShapedRecipe(
+		'survive:wool_jacket',
+		'1',
+		['C C','CCC','CCC'],
+		{C: 'majruszsdifficulty:cloth'}
+	),
+	new ShapedRecipe(
+		'survive:wool_hat',
+		'1',
+		['CCC','C C','   '],
+		{C: 'majruszsdifficulty:cloth'}
+	)
 ]
 
 const shapeless = [
@@ -75,6 +95,14 @@ const shapeless = [
 			'majruszsdifficulty:cloth',
 			'majruszsdifficulty:cloth'
 		]
+	),
+	new ShapelessRecipe(
+		'#minecraft:candles',
+		'1',
+		[
+			'#forge:string',
+			'survive:animal_fat'
+		]
 	)
 ]
 
@@ -91,7 +119,12 @@ const recipesToDelete = [
 	'#forge:coins',
 	'firstaid:plaster',
 	'firstaid:bandage',
-	'#majruszsdifficulty:tattered_armor'
+	'#majruszsdifficulty:tattered_armor',
+	'minecraft:eye_of_ender',
+	'survive:wool_boots',
+	'survive:wool_pants',
+	'survive:wool_jacket',
+	'survive:wool_hat'
 ]
 
 recipesToDelete.forEach(x => {

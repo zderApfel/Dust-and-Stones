@@ -81,23 +81,6 @@ function uncommonLoot(type){
 onEvent('lootjs', (event) => {
     common.forEach(commonLoot, event)
     uncommon.forEach(uncommonLoot, event)
-    event.addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.1)
-        .addWeightedLoot([1],[
-            Item.of('nzgexpansion:revolver').withChance(2),
-            Item.of('nzgexpansion:hunting_rifle').withChance(3),
-            Item.of('nzgexpansion:hunting_shotgun').withChance(1),
-            Item.of('nzgexpansion:micro_smg').withChance(.5)
-        ])
-
-    event.addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.33)
-        .addWeightedLoot([5,16],[
-            Item.of('cgm:basic_bullet').withChance(30),
-            Item.of('cgm:shell').withChance(30),
-            Item.of('nzgexpansion:medium_bullet').withChance(30),
-            Item.of('minecraft:cobweb').withChance(50)
-        ])
 
     event.addLootTypeModifier(LootType.CHEST)
         .randomChance(0.1)
