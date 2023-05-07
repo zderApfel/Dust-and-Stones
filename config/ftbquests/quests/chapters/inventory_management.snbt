@@ -65,6 +65,32 @@
 				description: ""
 			}]
 		}
+		{
+			title: "Getting more pockets"
+			icon: "thermal:satchel"
+			disable_toast: true
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Find or craft a satchel to expand your inventory!"
+			dependencies: ["6EAD7B6A2E6CEC5F"]
+			optional: true
+			can_repeat: true
+			id: "1CFA4092C3FE8826"
+			tasks: [{
+				id: "28DB66AD9E704955"
+				type: "item"
+				item: "thermal:satchel"
+				consume_items: true
+				match_nbt: false
+			}]
+			rewards: [{
+				id: "67E29E39F9CB3825"
+				type: "command"
+				auto: "enabled"
+				command: "/inventory_slots unlock @s 9"
+				player_command: true
+			}]
+		}
 	]
 	quest_links: [ ]
 }
