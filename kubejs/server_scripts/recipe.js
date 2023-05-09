@@ -59,6 +59,30 @@ const shaped = [
 		'1',
 		['CCC','C C','   '],
 		{C: 'majruszsdifficulty:cloth'}
+	),
+	new ShapedRecipe(
+		'survive:stiffened_honey_helmet',
+		'1',
+		['III','IHI','   '],
+		{I: 'survive:ice_cube', H: 'minecraft:leather_helmet'}
+	),
+	new ShapeRecipe(
+		'survive:stiffened_honey_chestplate',
+		'1',
+		['ICI','III','III'],
+		{I: 'survive:ice_cube', C: 'minecraft:leather_chestplate'}
+	),
+	new ShapedRecipe(
+		'survive:stiffened_honey_leggings',
+		'1',
+		['III','ILI','I I'],
+		{I: 'survive:ice_cube', C: 'minecraft:leather_leggings'}
+	),
+	new ShapedRecipe(
+		'survive:stiffened_honey_boots',
+		'1',
+		['   ','I I','IBI'],
+		{I: 'survive:ice_cube', C: 'minecraft:leather_boots'}
 	)
 ]
 
@@ -124,7 +148,8 @@ const recipesToDelete = [
 	'survive:wool_boots',
 	'survive:wool_pants',
 	'survive:wool_jacket',
-	'survive:wool_hat'
+	'survive:wool_hat',
+	'survive:stiffened_honey'
 ]
 
 recipesToDelete.forEach(x => {

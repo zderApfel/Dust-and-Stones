@@ -15,15 +15,7 @@
 			x: 0.0d
 			y: 0.0d
 			subtitle: "Introduction to Inventory"
-			description: [
-				"Your inventory is now limited. You only have access to your hotbar and the armor you wear."
-				"However, there are some additional QOL features added to make this less miserable. "
-				""
-				"For example, your off-hand can now switch between up to four different items. (Left and Right arrows by default)"
-				""
-				"You can also put tools in a dedicated slot, and when you try to mine a block with your empty hand"
-				"you'll automatically pull out the tool!"
-			]
+			description: ["Your inventory is now limited. You only have access to your hotbar and the armor you wear."]
 			dependencies: ["56477A476959E40D"]
 			id: "6EAD7B6A2E6CEC5F"
 			tasks: [{
