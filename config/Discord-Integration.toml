@@ -2,9 +2,9 @@
 [general]
   # Insert your Bot Token here!
   # DO NOT SHARE IT WITH ANYONE!
-  botToken = "NzM3MTY4MzQyNjY5OTgzODA1.G-MWCs.Cip-0y0EBgDTAVab57pUH6oHWFtd1GxW0o66rQ"
+  botToken = ""
   # The channel ID where the bot will be working in
-  botChannel = "1094398559597645906"
+  botChannel = ""
   # The bot's status message
   # 
   # PLACEHOLDERS:
