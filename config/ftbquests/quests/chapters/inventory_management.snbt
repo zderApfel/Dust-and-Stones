@@ -63,7 +63,7 @@
 			disable_toast: true
 			x: 0.0d
 			y: 2.0d
-			subtitle: "Find or craft a satchel to expand your inventory!"
+			subtitle: "Find or craft a satchel to expand your inventory! (Max 3 times)"
 			dependencies: ["6EAD7B6A2E6CEC5F"]
 			optional: true
 			can_repeat: true
@@ -79,8 +79,8 @@
 				id: "67E29E39F9CB3825"
 				type: "command"
 				auto: "enabled"
-				command: "/inventory_slots unlock @s 9"
-				player_command: true
+				command: "/inventory_slots unlock @p 9"
+				player_command: false
 			}]
 		}
 	]

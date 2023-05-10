@@ -1,7 +1,7 @@
 {
 	id: "5E835A106D0178AB"
 	group: "6E75DC3B71CB5F26"
-	order_index: 0
+	order_index: 1
 	filename: "flea_market"
 	title: "Firearms"
 	icon: {
@@ -29,35 +29,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "10x Silver Coins"
-			icon: "thermal:silver_coin"
-			x: 5.0d
-			y: -9.5d
-			shape: "diamond"
-			subtitle: "Convert Copper Coins to Silver"
-			description: [""]
-			can_repeat: true
-			id: "2174BE3B18EA9B79"
-			tasks: [{
-				id: "3F186987001BA2C3"
-				type: "item"
-				item: "thermal:copper_coin"
-				count: 100L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "1BD9AE59B1AA284C"
-				type: "item"
-				icon: "thermal:silver_coin"
-				item: "thermal:silver_coin"
-				count: 10
-			}]
-		}
-		{
 			title: "Missiles"
 			icon: { id: "cgm:missile", Count: 3b }
 			x: 5.0d
-			y: -11.0d
+			y: -10.0d
 			subtitle: "For when you need to kill a group of people and the ground they stand on. Used only in bazookas"
 			can_repeat: true
 			id: "4F5F24C47DB7FF9B"
@@ -77,55 +52,10 @@
 			}]
 		}
 		{
-			title: "10x Gold Coins"
-			icon: "thermal:gold_coin"
-			x: 6.5d
-			y: -9.5d
-			shape: "diamond"
-			subtitle: "Convert Silver Coins to Gold"
-			can_repeat: true
-			id: "3985A8A0F3F0EEB6"
-			tasks: [{
-				id: "7BA4723338D87F79"
-				type: "item"
-				item: "thermal:silver_coin"
-				count: 100L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "58B0D287136A7F18"
-				type: "item"
-				item: "thermal:gold_coin"
-				count: 10
-			}]
-		}
-		{
-			title: "10x Copper Coins"
-			icon: "thermal:copper_coin"
-			x: 3.5d
-			y: -9.5d
-			shape: "diamond"
-			subtitle: "Convert a Copper Block into Coins"
-			can_repeat: true
-			id: "03223B670A1844D5"
-			tasks: [{
-				id: "2092C1EA5863F07B"
-				type: "item"
-				item: "minecraft:copper_block"
-				consume_items: true
-			}]
-			rewards: [{
-				id: "5CF776692822C126"
-				type: "item"
-				item: "thermal:copper_coin"
-				count: 10
-			}]
-		}
-		{
 			title: "2x Grenades"
 			icon: { id: "cgm:grenade", Count: 2b }
 			x: 3.5d
-			y: -11.0d
+			y: -10.0d
 			subtitle: "Can be fired out of a grenade launcher or thrown manually."
 			can_repeat: true
 			id: "69C26A291860492C"
@@ -148,7 +78,7 @@
 			title: "2x Stun Grenades"
 			icon: { id: "cgm:stun_grenade", Count: 2b }
 			x: 6.5d
-			y: -11.0d
+			y: -10.0d
 			subtitle: "Stun grenades are good for disorientating enemies without killing them. Good if there's teammates close"
 			can_repeat: true
 			id: "4E3B2A0B16ED4492"

@@ -46,7 +46,7 @@
 			#How much health the user must have left for the debuff to apply at the mapped length. Must be sorted so the **lowest** value comes first
 			healthPercentageLeft = [0.25, 0.5, 0.75]
 			#How strong the potion effect should stay. If the first condition from the healthPercentageLeft config is met, the first value in this list will be taken
-			debuffStrength = [1]
+			debuffStrength = [1, 1, 1]
 
 	[Debuffs."Legs and Feet"]
 
@@ -56,7 +56,7 @@
 			#How much health the user must have left for the debuff to apply at the mapped length. Must be sorted so the **lowest** value comes first
 			healthPercentageLeft = [0.35, 0.6, 0.8]
 			#How strong the potion effect should stay. If the first condition from the healthPercentageLeft config is met, the first value in this list will be taken
-			debuffStrength = [1]
+			debuffStrength = [2, 1, 1]
 
 [misc]
 	#If true, many damage distributions will be more realistic, but this will also cause them to be harder\nIf enabled, e.g. drowing will only damage your body instead of your body and head last

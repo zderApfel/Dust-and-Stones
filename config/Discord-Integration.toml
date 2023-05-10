@@ -2,9 +2,9 @@
 [general]
   # Insert your Bot Token here!
   # DO NOT SHARE IT WITH ANYONE!
-  botToken = "INSERT BOT TOKEN HERE"
+  botToken = "NzM3MTY4MzQyNjY5OTgzODA1.G-MWCs.Cip-0y0EBgDTAVab57pUH6oHWFtd1GxW0o66rQ"
   # The channel ID where the bot will be working in
-  botChannel = "000000000"
+  botChannel = "1094398559597645906"
   # The bot's status message
   # 
   # PLACEHOLDERS:
@@ -13,7 +13,7 @@
   botStatusName = "%online% players Online"
   # Type of the bot's status
   # Allowed Values: DISABLED,PLAYING,WATCHING,LISTENING,STREAMING,COMPETING
-  botStatusType = "PLAYING"
+  botStatusType = "WATCHING"
   # URL of the bot's stream when using the status type 'STREAMING'
   # Has to start with https://twitch.tv/ or https://www.youtube.com/watch?v=
   streamingURL = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
@@ -170,7 +170,7 @@ settingsBlacklist = [    ]
   # The avatar to be used for server messages
   serverAvatarURL = "https://raw.githubusercontent.com/ErdbeerbaerLP/Discord-Chat-Integration/master/images/srv.png"
   # The name to be used for server messages
-  serverName = "Minecraft Server"
+  serverName = "Stone and Rust Official Server"
   # The URL where the player avatar gets fetched from
   # 
   # PLACEHOLDERS:
@@ -185,11 +185,11 @@ settingsBlacklist = [    ]
   # Enable the /discord command to show an custom message with invite URL?
   enabled = true
   # The message displayed when typing /discord in the server chat
-  message = "Join our discord! https://discord.gg/myserver"
+  message = "Click here to join our discord!"
   # The message shown when hovering the /discord command message
-  hoverMessage = "Click to open the invite url"
+  hoverMessage = "Click to join!"
   # The url to open when clicking the /discord command text
-  inviteURL = "https://discord.gg/myserver"
+  inviteURL = "https://discord.gg/9uf68Uvzvy"
 # The command log channel is an channel where every command execution gets logged
 [commandLog]
   # Channel ID for the command log channel

@@ -83,6 +83,12 @@ const shaped = [
 		'1',
 		['   ','I I','IBI'],
 		{I: 'survive:ice_cube', B: 'minecraft:leather_boots'}
+	),
+	new ShapedRecipe(
+		'majruszsdifficulty:cloth',
+		'4',
+		[' W ',' W ','   '],
+		{W: '#minecraft:wool'}
 	)
 ]
 
@@ -103,14 +109,6 @@ const shapeless = [
 		['#minecraft:wool']
 	),
 	new ShapelessRecipe(
-		'majruszsdifficulty:cloth',
-		'4',
-		[
-			'#minecraft:wool',
-			'#minecraft:wool'
-		]
-	),
-	new ShapelessRecipe(
 		'firstaid:plaster',
 		'3',
 		[
@@ -126,6 +124,20 @@ const shapeless = [
 		[
 			'#forge:string',
 			'survive:animal_fat'
+		]
+	),
+	new ShapelessRecipe(
+		'#forge:coins/copper',
+		'10',
+		[
+			'#forge:coins/silver'
+		]
+	),
+	new ShapelessRecipe(
+		'#forge:coins/silver',
+		'10',
+		[
+			'#forge:coins/gold'
 		]
 	)
 ]
@@ -144,6 +156,7 @@ const recipesToDelete = [
 	'firstaid:plaster',
 	'firstaid:bandage',
 	'#majruszsdifficulty:tattered_armor',
+	'#majruszsdifficulty:cloth',
 	'minecraft:eye_of_ender',
 	'survive:wool_boots',
 	'survive:wool_pants',
@@ -153,7 +166,8 @@ const recipesToDelete = [
 	'survive:stiffened_honey_helmet',
 	'survive:stiffened_honey_chestplate',
 	'survive:stiffened_honey_leggings',
-	'survive:stiffened_honey_boots'
+	'survive:stiffened_honey_boots',
+	'@forge:ingots/steel'
 ]
 
 recipesToDelete.forEach(x => {
@@ -174,7 +188,11 @@ shaped.forEach(x => {
 shapeless.forEach(x => {
 	onEvent('recipes', event => {
 		event.shapeless(`${x.count}x ${x.item}`,x.ingredients),
-		event.smelting('minecraft:leather','minecraft:rotten_flesh')
+		event.smelting('minecraft:leather','minecraft:rotten_flesh'),
+		event.recipes.thermal.smelter('2x #forge:ingots/steel', ['#forge:ingots/iron','#forge:ingots/nickel']),
+		event.recipes.thermal.smelter('2x #forge:ingots/brass', ['#forge:ingots/copper','#forge:ingots/zinc']),
+		event.recipes.thermal.press('#forge:plates/steel', '#forge:ingots/steel'),
+		event.recipes.thermal.press('#forge:plates/brass', '#forge:ingots/brass')
 	})
 	
 })

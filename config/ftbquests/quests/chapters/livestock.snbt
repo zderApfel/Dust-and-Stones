@@ -1,0 +1,133 @@
+{
+	id: "23C9B09251A50F32"
+	group: "6E75DC3B71CB5F26"
+	order_index: 2
+	filename: "livestock"
+	title: "Agriculture"
+	icon: "minecraft:beef"
+	disable_toast: true
+	subtitle: ["The Perfect place for the up-and-coming farmer"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	progression_mode: "flexible"
+	quests: [
+		{
+			title: "2x Sheep"
+			icon: "minecraft:white_wool"
+			x: 3.0d
+			y: -1.5d
+			id: "687BF0BCA4FC2268"
+			tasks: [{
+				id: "3A87F8397F9AF90C"
+				type: "item"
+				disable_toast: true
+				item: "thermal:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6882C2344D253739"
+				type: "item"
+				item: "minecraft:sheep_spawn_egg"
+				count: 2
+			}]
+		}
+		{
+			title: "2x Pig"
+			icon: "minecraft:cooked_porkchop"
+			x: -1.5d
+			y: -1.5d
+			id: "43C08922B8C50944"
+			tasks: [{
+				id: "506856819619B057"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 25L
+			}]
+			rewards: [{
+				id: "152108C62EC91E42"
+				type: "item"
+				item: "minecraft:pig_spawn_egg"
+				count: 2
+			}]
+		}
+		{
+			title: "2x Cow"
+			icon: "minecraft:cooked_beef"
+			x: 0.0d
+			y: -1.5d
+			id: "7B953FDDC7A3303F"
+			tasks: [{
+				id: "24788EF822D26E0D"
+				type: "item"
+				title: "40x Silver Coins"
+				disable_toast: true
+				item: "thermal:silver_coin"
+				count: 40L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3BE839C754FF3DFD"
+				type: "item"
+				item: "minecraft:cow_spawn_egg"
+				count: 2
+			}]
+		}
+		{
+			title: "2x Chicken"
+			icon: "minecraft:egg"
+			x: 1.5d
+			y: -1.5d
+			id: "2C657F097973A63D"
+			tasks: [{
+				id: "0B80670C4ADA9690"
+				type: "item"
+				item: "thermal:silver_coin"
+				count: 40L
+			}]
+			rewards: [{
+				id: "3FAB8D47E78003EA"
+				type: "item"
+				item: "minecraft:chicken_spawn_egg"
+			}]
+		}
+		{
+			title: "2x Wolf"
+			icon: "minecraft:bone"
+			x: 4.5d
+			y: -1.5d
+			id: "07F81F87B9EB176A"
+			tasks: [{
+				id: "333F08555F36E388"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 3L
+			}]
+			rewards: [{
+				id: "057ADDF8A480F3E1"
+				type: "item"
+				item: "minecraft:wolf_spawn_egg"
+				count: 2
+			}]
+		}
+		{
+			title: "2x Horse"
+			icon: "minecraft:leather_horse_armor"
+			x: 6.0d
+			y: -1.5d
+			id: "3537FE6EB546B9AD"
+			tasks: [{
+				id: "18FCF0E02B0A71FF"
+				type: "item"
+				item: "thermal:gold_coin"
+				count: 12L
+			}]
+			rewards: [{
+				id: "43418C1AFB8A35CF"
+				type: "item"
+				item: "minecraft:horse_spawn_egg"
+				count: 2
+			}]
+		}
+	]
+	quest_links: [ ]
+}
