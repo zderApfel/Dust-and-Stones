@@ -28,13 +28,7 @@ const shaped = [
 		'majruszsdifficulty:bandage',
 		'3',
 		['RER','ERE','RER'],
-		{R: 'thermal:rubber', E:'minecraft:fermented_spider_eye'}
-	),
-	new ShapedRecipe(
-		'majruszsdifficulty:golden_bandage',
-		'1',
-		[' E ','EME',' E '],
-		{E:'minecraft:golden_apple',M:'majruszsdifficulty:bandage'}
+		{R: '#forge:glass', E:'minecraft:fermented_spider_eye'}
 	),
 	new ShapedRecipe(
 		'survive:wool_boots',
