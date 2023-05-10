@@ -47,4 +47,9 @@ bullets.forEach(x => {
     onEvent('item.registry', event => {
         event.create(x.id).displayName(x.name).tooltip(x.tooltip).texture(x.texture).maxStackSize(64)
     })
+    onEvent('item.modification', event => {
+        event.modify('survive:white_washcloth', item => {
+            item.maxStackSize = 64;
+        })
+    })
 })

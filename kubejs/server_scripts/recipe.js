@@ -22,7 +22,7 @@ const shaped = [
 		'firstaid:bandage',
 		'1',
 		['CCC','KCH','CCC'],
-		{C: 'majruszsdifficulty:cloth', K:'#forge:tools/knives', H:"firstaid:plaster"}
+		{C: 'survive:white_washcloth', K:'#forge:tools/knives', H:"firstaid:plaster"}
 	),
 	new ShapedRecipe(
 		'majruszsdifficulty:bandage',
@@ -34,25 +34,25 @@ const shaped = [
 		'survive:wool_boots',
 		'1',
 		['   ','C C','C C'],
-		{C:'majruszsdifficulty:cloth'}
+		{C:'survive:white_washcloth'}
 	),
 	new ShapedRecipe(
 		'survive:wool_pants',
 		'1',
 		['CCC','C C','C C'],
-		{C: 'majruszsdifficulty:cloth'}
+		{C: 'survive:white_washcloth'}
 	),
 	new ShapedRecipe(
 		'survive:wool_jacket',
 		'1',
 		['C C','CCC','CCC'],
-		{C: 'majruszsdifficulty:cloth'}
+		{C: 'survive:white_washcloth'}
 	),
 	new ShapedRecipe(
 		'survive:wool_hat',
 		'1',
 		['CCC','C C','   '],
-		{C: 'majruszsdifficulty:cloth'}
+		{C: 'survive:white_washcloth'}
 	),
 	new ShapedRecipe(
 		'survive:stiffened_honey_helmet',
@@ -79,7 +79,7 @@ const shaped = [
 		{I: 'survive:ice_cube', B: 'minecraft:leather_boots'}
 	),
 	new ShapedRecipe(
-		'majruszsdifficulty:cloth',
+		'survive:white_washcloth',
 		'4',
 		[' W ',' W ','   '],
 		{W: '#minecraft:wool'}
@@ -106,10 +106,10 @@ const shapeless = [
 		'firstaid:plaster',
 		'3',
 		[
-			'majruszsdifficulty:cloth',
-			'majruszsdifficulty:cloth',
-			'majruszsdifficulty:cloth',
-			'majruszsdifficulty:cloth'
+			'survive:white_washcloth',
+			'survive:white_washcloth',
+			'survive:white_washcloth',
+			'survive:white_washcloth'
 		]
 	),
 	new ShapelessRecipe(
@@ -140,8 +140,6 @@ const recipesToDelete = [
 	'cgm:mini_gun',
 	'cgm:machine_pistol',
 	'firstaid:morphine',
-	'majruszsdifficulty:bandage',
-	'majruszsdifficulty:golden_bandage',
 	'cgm:basic_bullet',
 	'nzgexpansion:medium_bullet',
 	'cgm:shell',
@@ -150,7 +148,7 @@ const recipesToDelete = [
 	'firstaid:plaster',
 	'firstaid:bandage',
 	'#majruszsdifficulty:tattered_armor',
-	'#majruszsdifficulty:cloth',
+	'#survive:white_washcloth',
 	'minecraft:eye_of_ender',
 	'survive:wool_boots',
 	'survive:wool_pants',
