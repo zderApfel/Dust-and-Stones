@@ -123,13 +123,14 @@ const recipesToDelete = [
 	'survive:stiffened_honey_chestplate',
 	'survive:stiffened_honey_leggings',
 	'survive:stiffened_honey_boots',
-	'@forge:ingots/steel'
+	'@forge:ingots/steel',
 ]
 
 recipesToDelete.forEach(x => {
 	onEvent('recipes', event => {
 		event.remove({output: x})
 	})
+	
 })
 
 shaped.forEach(x => {
@@ -148,7 +149,9 @@ shapeless.forEach(x => {
 		event.recipes.thermal.smelter('2x #forge:ingots/steel', ['#forge:ingots/iron','#forge:ingots/nickel']),
 		event.recipes.thermal.smelter('2x #forge:ingots/brass', ['#forge:ingots/copper','#forge:ingots/zinc']),
 		event.recipes.thermal.press('#forge:plates/steel', '#forge:ingots/steel'),
-		event.recipes.thermal.press('#forge:plates/brass', '#forge:ingots/brass')
+		event.recipes.thermal.press('#forge:plates/brass', '#forge:ingots/brass'),
+		event.replaceInput({type:'minecraft:crafting_shapeless'}, 'minecraft:crafting_table', '#forge:workbenches'),
+		event.replaceInput({type:'minecraft:crafting_shaped'}, 'minecraft:crafting_table', '#forge:workbenches')
 	})
 	
 })
