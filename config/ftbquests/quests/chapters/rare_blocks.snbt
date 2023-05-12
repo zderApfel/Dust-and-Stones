@@ -1,0 +1,97 @@
+{
+	id: "27E3ECA4315876F9"
+	group: "6E75DC3B71CB5F26"
+	order_index: 3
+	filename: "rare_blocks"
+	title: "Exotic Materials"
+	icon: "quark:shale"
+	disable_toast: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Jasper"
+			icon: { id: "quark:jasper", Count: 64b }
+			x: -3.5d
+			y: -1.5d
+			can_repeat: true
+			id: "120A29003FB4EE67"
+			tasks: [{
+				id: "59FE4F5B8F2F3F3B"
+				type: "item"
+				item: "thermal:silver_coin"
+			}]
+			rewards: [{
+				id: "38F92A2D0259312B"
+				type: "item"
+				auto: "enabled"
+				item: "quark:jasper"
+				count: 64
+			}]
+		}
+		{
+			title: "64x Myalite"
+			icon: { id: "quark:myalite", Count: 64b }
+			disable_toast: true
+			x: -2.0d
+			y: -1.5d
+			can_repeat: true
+			id: "31F6DF2ECE2E4923"
+			tasks: [{
+				id: "0563B76D2C4DE76C"
+				type: "item"
+				item: "thermal:silver_coin"
+			}]
+			rewards: [{
+				id: "23CEE4B422928414"
+				type: "item"
+				auto: "enabled"
+				item: "quark:myalite"
+				count: 64
+			}]
+		}
+		{
+			title: "64x Shale"
+			icon: { id: "quark:shale", Count: 64b }
+			disable_toast: true
+			x: -0.5d
+			y: -1.5d
+			can_repeat: true
+			id: "6ECAB4CE2E30681B"
+			tasks: [{
+				id: "112E62D2AAD9DE47"
+				type: "item"
+				item: "thermal:silver_coin"
+			}]
+			rewards: [{
+				id: "1C209600D456EAFF"
+				type: "item"
+				auto: "enabled"
+				item: "quark:shale"
+				count: 64
+			}]
+		}
+		{
+			title: "64x Midori"
+			icon: { id: "quark:midori_block", Count: 64b }
+			disable_toast: true
+			x: 1.0d
+			y: -1.5d
+			can_repeat: true
+			id: "6E1E83FB42D22154"
+			tasks: [{
+				id: "160196F45626973D"
+				type: "item"
+				item: "thermal:silver_coin"
+			}]
+			rewards: [{
+				id: "4489F1067A006458"
+				type: "item"
+				auto: "enabled"
+				item: "quark:midori_block"
+				count: 64
+			}]
+		}
+	]
+	quest_links: [ ]
+}

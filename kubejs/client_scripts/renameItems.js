@@ -4,9 +4,7 @@ onEvent('client.generate_assets', event => {
 	const rename = (item, newName) => event.addLang(Item.of(item).item.getDescriptionId(), newName)
 	
 	rename('cgm:workbench','Gun Table')
-	rename('firstaid:plaster', 'Combat Bandage')
 	rename('survive:white_washcloth', 'Wool Cloth')
-	rename('firstaid:bandage', 'Field Surgery Kit')
 	rename('survive:wool_hat', 'Cloth Hat')
 	rename('survive:wool_jacket', 'Cloth Tunic')
 	rename('survive:wool_pants', 'Cloth Pants')

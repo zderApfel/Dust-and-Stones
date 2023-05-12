@@ -19,12 +19,6 @@ const shaped = [
 		{L:'minecraft:leather',A:'#forge:gems/amethyst',R:'#forge:dusts/redstone',E:'#forge:gems/emerald'}
 	),
 	new ShapedRecipe(
-		'firstaid:bandage',
-		'1',
-		['CCC','KCH','CCC'],
-		{C: 'survive:white_washcloth', K:'#forge:tools/knives', H:"firstaid:plaster"}
-	),
-	new ShapedRecipe(
 		'survive:wool_boots',
 		'1',
 		['   ','C C','C C'],
@@ -82,29 +76,9 @@ const shaped = [
 
 const shapeless = [
 	new ShapelessRecipe(
-		'firstaid:morphine',
-		'1',
-		[
-			'survive:sugar_water_bottle',
-			'minecraft:poppy',
-			'minecraft:poppy',
-			'minecraft:torch'
-		]
-	),
-	new ShapelessRecipe(
 		'minecraft:string',
 		'4',
 		['#minecraft:wool']
-	),
-	new ShapelessRecipe(
-		'firstaid:plaster',
-		'3',
-		[
-			'survive:white_washcloth',
-			'survive:white_washcloth',
-			'survive:white_washcloth',
-			'survive:white_washcloth'
-		]
 	),
 	new ShapelessRecipe(
 		'#minecraft:candles',
@@ -133,14 +107,11 @@ const shapeless = [
 const recipesToDelete = [
 	'cgm:mini_gun',
 	'cgm:machine_pistol',
-	'firstaid:morphine',
 	'cgm:basic_bullet',
 	'nzgexpansion:medium_bullet',
 	'cgm:shell',
 	'cgm:advanced_bullet',
 	'#forge:coins',
-	'firstaid:plaster',
-	'firstaid:bandage',
 	'#survive:white_washcloth',
 	'minecraft:eye_of_ender',
 	'survive:wool_boots',

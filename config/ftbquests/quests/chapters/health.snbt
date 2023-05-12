@@ -67,63 +67,6 @@
 			}]
 		}
 		{
-			title: "Basic Medicine"
-			x: -1.5d
-			y: -1.5d
-			subtitle: "Find or craft some Emergency Clotter"
-			description: [
-				"Oh no, you're bleeding out! But bandages are too slow"
-				"Luckily, you can fashion some emergency clotter out of fermented spider eyes"
-				"and rubber. Don't ask it just works."
-			]
-			dependencies: ["291467ED1FB44CDE"]
-			optional: true
-			id: "2DE101A79F051941"
-			tasks: [{
-				id: "45CEFA84D9C0AEDB"
-				type: "item"
-				item: "majruszsdifficulty:bandage"
-			}]
-			rewards: [{
-				id: "027086E4893802D9"
-				type: "toast"
-				title: "Field Medic"
-				icon: "majruszsdifficulty:bandage"
-				auto: "enabled"
-				description: ""
-			}]
-		}
-		{
-			title: "Advanced Medicine"
-			x: -3.0d
-			y: -1.5d
-			subtitle: "Craft blood thickener"
-			description: [
-				"Thanks to the magic of golden apples, you can make an even stronger way "
-				"to prevent bleeding: Blood Thickener!"
-				""
-				"This powerful elixir not only cures your bleeding, but also prevents further bleeding for a minute!"
-				""
-				"It SHOULDN'T have any long term side effects, odd-colored spit is normal."
-			]
-			dependencies: ["2DE101A79F051941"]
-			optional: true
-			id: "6557AC2A3D7894D3"
-			tasks: [{
-				id: "742285B7B03ECF4D"
-				type: "item"
-				item: "majruszsdifficulty:golden_bandage"
-			}]
-			rewards: [{
-				id: "7050E7163F6BBCDF"
-				type: "toast"
-				title: "Combat Doctor"
-				icon: "majruszsdifficulty:golden_bandage"
-				auto: "enabled"
-				description: ""
-			}]
-		}
-		{
 			title: "Precious water"
 			x: 0.0d
 			y: 1.5d

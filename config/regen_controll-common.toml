@@ -1,0 +1,12 @@
+
+[Config]
+	#The interval in ticks between heals. Since combat update vanilla is 10. Before combat update vanilla is 80
+	#Range: > 1
+	regenTime = 80
+	#The minimum amount of hunger needed for healing. Vanilla is 18
+	#Range: 0 ~ 20
+	minHunger = 16
+	#The exhaustion value added by healing. 4 exhaustion equals 1 saturation/hunger point lost
+	#Range: 0.0 ~ 80.0
+	exhaustion = 6.0
+
