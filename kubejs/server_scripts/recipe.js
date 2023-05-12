@@ -25,12 +25,6 @@ const shaped = [
 		{C: 'survive:white_washcloth', K:'#forge:tools/knives', H:"firstaid:plaster"}
 	),
 	new ShapedRecipe(
-		'majruszsdifficulty:bandage',
-		'3',
-		['RER','ERE','RER'],
-		{R: '#forge:glass', E:'minecraft:fermented_spider_eye'}
-	),
-	new ShapedRecipe(
 		'survive:wool_boots',
 		'1',
 		['   ','C C','C C'],
@@ -147,7 +141,6 @@ const recipesToDelete = [
 	'#forge:coins',
 	'firstaid:plaster',
 	'firstaid:bandage',
-	'#majruszsdifficulty:tattered_armor',
 	'#survive:white_washcloth',
 	'minecraft:eye_of_ender',
 	'survive:wool_boots',

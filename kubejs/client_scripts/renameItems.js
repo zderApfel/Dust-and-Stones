@@ -6,7 +6,6 @@ onEvent('client.generate_assets', event => {
 	rename('cgm:workbench','Gun Table')
 	rename('firstaid:plaster', 'Combat Bandage')
 	rename('survive:white_washcloth', 'Wool Cloth')
-	rename('majruszsdifficulty:bandage', 'Regen Stim')
 	rename('firstaid:bandage', 'Field Surgery Kit')
 	rename('survive:wool_hat', 'Cloth Hat')
 	rename('survive:wool_jacket', 'Cloth Tunic')
