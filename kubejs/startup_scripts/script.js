@@ -50,6 +50,30 @@ bullets.forEach(x => {
     onEvent('item.modification', event => {
         event.modify('survive:white_washcloth', item => {
             item.maxStackSize = 64;
+        }),
+        event.modify('survive:stiffened_honey_boots', item => {
+            item.maxDamage = 150;
+        }),
+        event.modify('survive:stiffened_honey_leggings', item => {
+            item.maxDamage = 205;
+        }),
+        event.modify('survive:stiffened_honey_chestplate', item => {
+            item.maxDamage = 210;
+        }),
+        event.modify('survive:stiffened_honey_helmet', item => {
+            item.maxDamage = 120;
+        }),
+        event.modify('survive:wool_hat', item => {
+            item.maxDamage = 44;
+        }),
+        event.modify('survive:wool_pants', item => {
+            item.maxDamage = 69;
+        }),
+        event.modify('survive:wool_jacket', item => {
+            item.maxDamage = 72;
+        }),
+        event.modify('survive:wool_boots', item => {
+            item.maxDamage = 52;
         })
     })
 })

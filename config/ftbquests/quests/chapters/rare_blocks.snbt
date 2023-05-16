@@ -24,7 +24,7 @@
 			rewards: [{
 				id: "38F92A2D0259312B"
 				type: "item"
-				auto: "enabled"
+				auto: "disabled"
 				item: "quark:jasper"
 				count: 64
 			}]
@@ -45,7 +45,7 @@
 			rewards: [{
 				id: "23CEE4B422928414"
 				type: "item"
-				auto: "enabled"
+				auto: "disable"
 				item: "quark:myalite"
 				count: 64
 			}]
@@ -66,7 +66,7 @@
 			rewards: [{
 				id: "1C209600D456EAFF"
 				type: "item"
-				auto: "enabled"
+				auto: "disable"
 				item: "quark:shale"
 				count: 64
 			}]
@@ -87,7 +87,7 @@
 			rewards: [{
 				id: "4489F1067A006458"
 				type: "item"
-				auto: "enabled"
+				auto: "disable"
 				item: "quark:midori_block"
 				count: 64
 			}]
